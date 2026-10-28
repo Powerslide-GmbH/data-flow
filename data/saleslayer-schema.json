@@ -1,0 +1,5021 @@
+[
+  {
+    "key": "prod_id",
+    "label": "prod_id",
+    "type": "integer",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ref",
+    "label": "Produktreferenz",
+    "type": "reference",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_stat",
+    "label": "Status",
+    "type": "status",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_title",
+    "label": "Product Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_description",
+    "label": "Product Description",
+    "type": "long_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_image",
+    "label": "Produktbild",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_tags",
+    "label": "Tags",
+    "type": "tags",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "typ_id",
+    "label": "Family",
+    "type": "integer",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "cat_id",
+    "label": "cat_id",
+    "type": "integer",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "cat_ref",
+    "label": "Category Reference",
+    "type": "reference",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_modify",
+    "label": "prod_modify",
+    "type": "string",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_creation",
+    "label": "prod_creation",
+    "type": "string",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_brand",
+    "label": "Brand",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_collection",
+    "label": "Collection",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_customerlevel",
+    "label": "Product Status",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ean",
+    "label": "EAN",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_artno",
+    "label": "Article Number",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_releaseyear",
+    "label": "Release Year",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_sustainabilitypackaging",
+    "label": "Sustainability - Packaging",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_usp1",
+    "label": "Highlight 1",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_usp2",
+    "label": "Highlight 2",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_usp3",
+    "label": "Highlight 3",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_metatextseo",
+    "label": "Metatext SEO",
+    "type": "long_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_headlineamazon",
+    "label": "Marketplace Headline EN",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_segment1",
+    "label": "Segment 1",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_segment2",
+    "label": "Segment 2",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_segment3",
+    "label": "Segment 3",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_speed",
+    "label": "Speed related to Diameter / PU-Compound",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizes",
+    "label": "Head Circumferences / Sizes",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shellsizes",
+    "label": "Shell/Outsole Sizes",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_fittingwidthlength",
+    "label": "Fitting (Length / Width)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_specialfiittinginformatio",
+    "label": "Special Fitting Information",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_boottype",
+    "label": "Boot Type",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shelloutsolematerial",
+    "label": "Shell / Outsole Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_heatmoldability",
+    "label": "Heat Moldability",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialupperliner",
+    "label": "Material Upper / Liner",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_skateheightincm",
+    "label": "Roller Skate Height in CM",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_stiffnessbootfrontrear",
+    "label": "Stiffness Boot Front / Rear",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_cuffmaterial",
+    "label": "Cuff Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_topclosure",
+    "label": "Top Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_45degclosurefrontfootclos",
+    "label": "45° Closure / Front Foot Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_liner",
+    "label": "Liner",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_linertopclosure",
+    "label": "Liner Top Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bootmountingstandard",
+    "label": "Boot Mounting Standard Detail",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_innersole",
+    "label": "Innersole",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shockabsorber",
+    "label": "Shock Absorber",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_ventilation",
+    "label": "Ventilation",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_durability",
+    "label": "Durability",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_framename",
+    "label": "Frame Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_framematerial",
+    "label": "Frame Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_framemanufacturingprocess",
+    "label": "Plate Manufacturing Process",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_framewheelbaseinchmm",
+    "label": "Frame Wheel Base (Inch / MM)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_maxwheelsize",
+    "label": "Max. Wheel Size",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_framemountingstandard",
+    "label": "Frame Mounting Standard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frameaxles",
+    "label": "Frame Axles",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_adjustablesidetoside",
+    "label": "Adjustable Side to Side",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_adjustablefronttoback",
+    "label": "Adjustable Front to Back",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelname",
+    "label": "Wheel Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheeldiameter",
+    "label": "Wheel Diameter",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelwidth",
+    "label": "Wheel Width",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelhardness",
+    "label": "Wheel Hardness",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelcompound",
+    "label": "Wheel Manufacturing Process",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelbearingstandard",
+    "label": "Wheel Bearing Standard",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelspacer",
+    "label": "Wheel Spacer",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingbrand",
+    "label": "Bearing Brand",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingrating",
+    "label": "Bearing Rating",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingstandard",
+    "label": "Bearing Standard",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingmaterial",
+    "label": "Bearing Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingshield",
+    "label": "Bearing Shield",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearinglubrication",
+    "label": "Bearing Lubrication",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakecompatibility",
+    "label": "Brake Compatibility",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_includedaccesssories",
+    "label": "Included Accessories",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_warranty",
+    "label": "Warranty",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_website",
+    "label": "Website",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_facebook",
+    "label": "Facebook",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_instagram",
+    "label": "Instagram",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_tt",
+    "label": "TIKTOK",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtube",
+    "label": "Brand Video Channel",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtube3dvideo",
+    "label": "3D Product Video",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubeproductvideo",
+    "label": "Product Video",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtuberollingreviews1",
+    "label": "Rolling Review 1",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtuberollingreviews2",
+    "label": "Rolling Review 2",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtuberollingreviews3",
+    "label": "Rolling Review 3",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstutor",
+    "label": "Speaking Specs 1",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubeactionvideo1",
+    "label": "Action Video 1",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubeactionvideo2",
+    "label": "Action Video 2",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubeactionvideo3",
+    "label": "Action Video 3",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubeheatmoldtutorial",
+    "label": "Youtube Heat Mold Tutorial",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingmaterialrings",
+    "label": "Material Bearing Rings",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingmaterialballs",
+    "label": "Material Bearing Balls",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingmaterialcage",
+    "label": "Material Bearing Cage",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightperbearing",
+    "label": "Weight per Bearing",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_deckmaterial",
+    "label": "Deck Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_decklayup",
+    "label": "Deck Layup",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_deckshape",
+    "label": "Deck Shape",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_decklengthwidthinch",
+    "label": "Deck Length / Width - Inch",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_deckgriptape",
+    "label": "Deck Griptape",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_truckname",
+    "label": "Truck Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_truckmaterial",
+    "label": "Truck Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_truckwidthinch",
+    "label": "Truck Width - Inch",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_cushions",
+    "label": "Cushions",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pivot",
+    "label": "Pivot",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_screws",
+    "label": "Screws",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_riserpad",
+    "label": "Riser Pad",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelcore",
+    "label": "Wheel Core",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelsurface",
+    "label": "Wheel Surface",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frameextrusion",
+    "label": "Frame Manufacturing Process",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_standingheightfrontrearin",
+    "label": "Standing Height Front / Rear in MM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_framesetup",
+    "label": "Frame Setup",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_framebearingspacer",
+    "label": "Wheel Spacer (2)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_framespacer",
+    "label": "Frame Spacer",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_extrafeatures",
+    "label": "Extra Features",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakeoption",
+    "label": "Brake Option",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sustainabilityproduct",
+    "label": "Sustainability - Product",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_segment4",
+    "label": "Segment 4",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_segment5",
+    "label": "Segment 5",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizerun",
+    "label": "Plate Information",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_capmaterialkneeandelbowpa",
+    "label": "Material Cap Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_capsizeselbowpads",
+    "label": "Cap Sizes Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_uppermaterialkneeandelbow",
+    "label": "Material Upper Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_paddingmaterialkneeandelb",
+    "label": "Material Padding Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialliningkneeandelbo",
+    "label": "Material Lining Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sockconstructionkneeandel",
+    "label": "Sock Construction Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_topstrapkneeandelbowpads",
+    "label": "Top Strap Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bottomstrapkneeandelbowpa",
+    "label": "Bottom Strap Knee and Elbow Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialtopsplintwristgua",
+    "label": "Material Top Splint Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizetopsplintwristguard",
+    "label": "Size Top Splint Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialbottomsplintslide",
+    "label": "Material Bottom Splint/Slider Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizebottomsplintwristguar",
+    "label": "Size Bottom Splint Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialupperwristguard",
+    "label": "Material Upper Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_paddingwristguard",
+    "label": "Padding Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialliningwristguard",
+    "label": "Material Lining Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_topstrapwristguard",
+    "label": "Top Strap Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_middlestrapwristguard",
+    "label": "Middle Strap Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bottomstrapwristguard",
+    "label": "Bottom Strap Wristguard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_enstandard",
+    "label": "EN Standard",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_level",
+    "label": "Level",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_range",
+    "label": "Range",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_testreport",
+    "label": "Test Report",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_cecertificate",
+    "label": "CE-Certificate",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_letterofconformity",
+    "label": "Letter of Conformity",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_uppermaterialpants",
+    "label": "Upper Material Pants",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_paddingmaterialpants",
+    "label": "Padding Material Pants",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_capmaterialpants",
+    "label": "Cap Material Pants",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_adjustableheadring",
+    "label": "Adjustable Head Ring",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_outsideshellconstruction",
+    "label": "Outside Shell Construction",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_outsideshellmaterial",
+    "label": "Outside Shell Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_paddingmaterialhelmet",
+    "label": "Padding Material Helmet",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_eps",
+    "label": "EPS",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_strapshelmet",
+    "label": "Straps Helmet",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_closurehelmet",
+    "label": "Closure Helmet",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_cecertificate2",
+    "label": "Manual Helmets",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightperhelmetsize",
+    "label": "Weight per Helmet Size",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_platematerial",
+    "label": "Plate Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_truckangle",
+    "label": "Truck Angle",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_platesizerun",
+    "label": "Plate Size Run",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_platemountingstandard",
+    "label": "Plate Mounting Standard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_truckhanger",
+    "label": "Truck Hanger",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_truckhangerwidth",
+    "label": "Truck Hanger Width (Inch / MM)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_plateaxle",
+    "label": "Axle Type",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_widthtruckinclaxlesinchmm",
+    "label": "Width Truck incl. Axles (Inch / MM)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_powertoesystempts",
+    "label": "Power Toe System (PTS)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_cushionsname",
+    "label": "Cushions Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_cushionsmaterial",
+    "label": "Cushions Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_cushionshardness",
+    "label": "Cushions Hardness",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_cushionsheight",
+    "label": "Cushions Height",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_toestoppersname",
+    "label": "Toe Stoppers Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_offsettoestopper",
+    "label": "Off Set Toe Stopper",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_toestopperfixation",
+    "label": "Toe Stopper Fixation",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_stem",
+    "label": "Stem",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_toestoppershape",
+    "label": "Toe Stopper Shape",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_toestoppermaterial",
+    "label": "Toe Stopper Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weight",
+    "label": "Weight",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_suggesteduse1",
+    "label": "Suggested Use 1",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_suggesteduse2",
+    "label": "Suggested Use 2",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_maxairpressure",
+    "label": "Max. Air Pressure",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightperwheel",
+    "label": "Weight (5)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialupper",
+    "label": "Material Upper",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_linerheightincm",
+    "label": "Liner Height in CM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_stiffness",
+    "label": "Stiffness",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bottomclosure",
+    "label": "Bottom Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_paddingmaterial",
+    "label": "Padding Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_outsolematerial",
+    "label": "Outsole Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_carrysystem",
+    "label": "Carry System",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tounge",
+    "label": "Tounge",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_gripsystem",
+    "label": "Grip System",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_lining",
+    "label": "Lining",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_protection",
+    "label": "Protection",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightleftliner",
+    "label": "Weight per Liner",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelradius",
+    "label": "Wheel Profile",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelinsert",
+    "label": "Wheel Insert",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shelloutsolesizes",
+    "label": "Shell / Outsole Sizes",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shelloutsole",
+    "label": "Shell / Outsole",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bootclosure",
+    "label": "Boot Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_platename",
+    "label": "Plate Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_grindblockname",
+    "label": "Grind Block Name",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_grindblockmaterial",
+    "label": "Grind Block Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_grindblocksizes",
+    "label": "Grind Block Sizes",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightskate",
+    "label": "Weight Roller Skate",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_uppermaterial",
+    "label": "Upper Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_archsupport",
+    "label": "Arch Support",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_heelsupport",
+    "label": "Heel Support",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_midfootsupport",
+    "label": "Midfoot Support",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_comfort",
+    "label": "Comfort",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_last",
+    "label": "Last",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_usp4",
+    "label": "Highlight 4",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_heightskateincm",
+    "label": "Height Ice Skate in CM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_closure",
+    "label": "Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladename",
+    "label": "Blade Name",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladeholdermaterial",
+    "label": "Blade Holder Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladematerial",
+    "label": "Blade Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladehardness",
+    "label": "Blade Hardness",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladewidth",
+    "label": "Blade Width",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladeteeth",
+    "label": "Blade Teeth",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bladepresharpened",
+    "label": "Blade Pre-Sharpened",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_mountingdistanceofbrakece",
+    "label": "Mounting Distance of Brake Center Axle to Center Axle",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_maxwidthofframefittingthe",
+    "label": "Max. Width of Frame fitting the Brake",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_importantnotes",
+    "label": "Important Notes",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialbrakehousings",
+    "label": "Material Brake Housings",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_assemblyhardware",
+    "label": "Assembly Hardware",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_assemblyofbrakes",
+    "label": "Assembly of complete Brakes",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakepads",
+    "label": "Name Brake Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakepadssizes",
+    "label": "Brake Pads Sizes",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialbrakepads",
+    "label": "Material Brake Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_hardnessbrakepads",
+    "label": "Hardness Brake Pads",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_assemblyofbrakepads",
+    "label": "Assembly of Brake Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_usp5",
+    "label": "Highlight 5",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_volume",
+    "label": "Volume",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_insideliningmaterial",
+    "label": "Inside Lining Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_backmaterial",
+    "label": "Back Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_skateholder",
+    "label": "Skate Holder",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_helmetfixation",
+    "label": "Helmet Fixation",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_backpadding",
+    "label": "Back Padding",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_carrystraps",
+    "label": "Carry Straps",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_carryloops",
+    "label": "Carry Loops",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_reflective",
+    "label": "Reflective",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_grip",
+    "label": "Grip",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelshape",
+    "label": "Wheel Profile (2)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_capsizeskneepads",
+    "label": "Cap Sizes Knee Pads",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialcomposition",
+    "label": "Material Composition",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelcompound1",
+    "label": "Wheel Compound (3)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelsetup",
+    "label": "Wheel Setup",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheeldiamater",
+    "label": "Wheel Diameter (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtuberollingreviews",
+    "label": "Youtube Rolling Reviews",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu1",
+    "label": "Speaking Specs 2",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu2",
+    "label": "Speaking Specs 3",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu3",
+    "label": "Youtube Speaking Specs Tutorial 4",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu4",
+    "label": "Youtube Speaking Specs Tutorial 5",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu5",
+    "label": "Youtube Speaking Specs Tutorial 6",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu6",
+    "label": "Youtube Speaking Specs Tutorial 7",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_youtubespeakingspecstu7",
+    "label": "Youtube Speaking Specs Tutorial 8",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view0",
+    "label": "View0",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view1",
+    "label": "View1",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view2",
+    "label": "View2",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view3",
+    "label": "View3",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view4",
+    "label": "View4",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view5",
+    "label": "View5",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview1",
+    "label": "Actionview01",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview2",
+    "label": "Actionview02",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_viewxnomatchinfilename",
+    "label": "ViewX (no match in filename)",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview3",
+    "label": "Actionview03",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view6",
+    "label": "View6",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view7",
+    "label": "View7",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view8",
+    "label": "View8",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view9",
+    "label": "View9",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview04",
+    "label": "Actionview04",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview05",
+    "label": "Actionview05",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview06",
+    "label": "Actionview06",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview07",
+    "label": "Actionview07",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview08",
+    "label": "Actionview08",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview09",
+    "label": "Actionview09",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview10",
+    "label": "Actionview10",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakefittingguide",
+    "label": "Brake fitting guide",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualrollerska",
+    "label": "Manual Skateboards",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualprotection",
+    "label": "Manual Inline Skates",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualprotectivesho",
+    "label": "Manual Protective Shorts",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_deckdimensionslwi",
+    "label": "Deck Dimensions l / w in MM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_deck",
+    "label": "Deck",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_kickstand",
+    "label": "Kickstand",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tbar",
+    "label": "T-bar",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tbarfixation",
+    "label": "T-bar Fixation",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tbarheightwidthi",
+    "label": "T-bar Height / Width in MM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_handlebar",
+    "label": "Handle Bar",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_grippermaterial",
+    "label": "Gripper Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_connectorbarfork",
+    "label": "Connector Bar & Fork",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frontrearfork",
+    "label": "Front / Rear Fork",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_typeofheadset",
+    "label": "Head Set",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frontrearfender",
+    "label": "Front / Rear Fender",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frontrearsuspens",
+    "label": "Front / Rear Suspension",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_rearbrake",
+    "label": "Rear Brake",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_foldingmechanism",
+    "label": "Folding Mechanism",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_lubrication",
+    "label": "Lubrication",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightofscooter",
+    "label": "Weight Of Scooter",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_dimensionsofscooterfol",
+    "label": "Dimensions Of Scooter Folded",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_dimensionsofscooterunf",
+    "label": "Dimensions Of Scooter Unfolded",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizebackpack",
+    "label": "Size Backpack",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_feature1",
+    "label": "Feature 1",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_feature2",
+    "label": "Feature 2",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_feature3",
+    "label": "Feature 3",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizeofpant",
+    "label": "Sizes",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualiceskates",
+    "label": "Manual Ice Skates",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_maxuserweight",
+    "label": "Max. tested User Weight",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_class",
+    "label": "Class",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualrollerska1",
+    "label": "Manual Bike Shoes",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualscooter",
+    "label": "Manual Scooter",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualprotection1",
+    "label": "Manual Protection",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_maxuserweight1",
+    "label": "Max tested User Weight",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_rollingcomfort",
+    "label": "Rolling Comfort",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightperframe",
+    "label": "Weight per Frame",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tirewheelmanufacturing",
+    "label": "Wheel Manufacturing Process (2)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tirewheelcompound",
+    "label": "Wheel Compound",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tirewheelcore",
+    "label": "Material Wheel Core",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tirewheelspacer",
+    "label": "Wheel Spacer (3)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightpertirewh",
+    "label": "Weight per Wheel (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weighticeskates",
+    "label": "Weight Ice Skates",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_iceblademountingstand",
+    "label": "Ice Blade Mounting Standard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_numberofballs",
+    "label": "Number of Balls",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_size1",
+    "label": "Size",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_skateheightincm1",
+    "label": "Inline Skate Height in CM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightskateleftsidenob",
+    "label": "Weight Skate (left side no brake)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheeelprofile",
+    "label": "Wheeel Profile",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frameconstruction",
+    "label": "Frame Construction",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_eursrp",
+    "label": "EURSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_usddistri",
+    "label": "USDDISTRI",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_usdshop",
+    "label": "USDSHOP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_gbpwsp",
+    "label": "GBPWSP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_fob",
+    "label": "FOB",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_usdsrp",
+    "label": "USDSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_gbpsrp",
+    "label": "GBPSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview11",
+    "label": "Actionview11",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview12",
+    "label": "Actionview12",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview13",
+    "label": "Actionview13",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview14",
+    "label": "Actionview14",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_actionview15",
+    "label": "Actionview15",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bruttogewicht",
+    "label": "Gross weight (kg)",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_nettogewicht",
+    "label": "Net weight (kg)",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_eurwsp",
+    "label": "EURWSP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_hscustomcode",
+    "label": "HS custom code",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonkategorie",
+    "label": "Amazon Product Category Subcategory",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_batteryincludednee",
+    "label": "Battery included/needed",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_productpackaginglen",
+    "label": "Product Packaging Length (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productpackagingwi",
+    "label": "Product Packaging Width (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productpackaginghei",
+    "label": "Product Packaging Height (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vpeproductqty",
+    "label": "VPE Product QTY",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vpenetweightkg",
+    "label": "VPE Net weight (kg)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vpegrossweightkg",
+    "label": "VPE Gross weight (kg)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vpepackaginglen",
+    "label": "VPE Packaging Length (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vpepackagingwidth",
+    "label": "VPE Packaging Width (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vpepackaginghei",
+    "label": "VPE Packaging Height (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonursprungsl",
+    "label": "Amazon Ursprungsland",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productmaterial",
+    "label": "Product material",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizes1",
+    "label": "Sizes (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_color",
+    "label": "Color",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonasin",
+    "label": "Amazon ASIN",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_components",
+    "label": "Components",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_speed2",
+    "label": "Product Overview: Speed",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_technology",
+    "label": "Technology",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_faqinformation",
+    "label": "FAQ & Information",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productoverviewle",
+    "label": "Product Overview: Level",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productoverviewsupp",
+    "label": "Product Overview: Support",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productoverviewforward",
+    "label": "Product Overview: Forward Flex",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productoverviewhandl",
+    "label": "Product Overview: Handling",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shoeoutsolemater",
+    "label": "Shoe outsole Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shoeuppermaterial",
+    "label": "Shoe Upper Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shoedurability",
+    "label": "Shoe Durability",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shoeclosure",
+    "label": "Shoe Closure",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightpershoe",
+    "label": "Weight per Shoe",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_grindplatemater",
+    "label": "Grind Plate Material",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shoeinnersole",
+    "label": "Shoe Innersole",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_shoeheightincm",
+    "label": "Shoe Height in CM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_faqinformationen",
+    "label": "FAQ & Informationen",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialsafetydatashee",
+    "label": "Material Safety Data Sheet (MSDS)",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_segmenttext",
+    "label": "Segment Text",
+    "type": "long_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_speed1",
+    "label": "Speed",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_brandicons",
+    "label": "Brand Icons",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_technologyicons",
+    "label": "Technology Icons",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_skillrange1",
+    "label": "Skill Range 1",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_skillrange2",
+    "label": "Skill Range 2",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_skillrange3",
+    "label": "Skill Range 3",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_supportcufflate",
+    "label": "Support Cuff (Lateral)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_flexcuffbacktofr",
+    "label": "Flex Cuff (Back to Front)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_technologiesinlineska",
+    "label": "Technologies (Inline Skates)",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_technologiesgene",
+    "label": "Technologies (General)",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_eurwspnew",
+    "label": "PRICE-EURWSP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_test",
+    "label": "Awards",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weigtperwheel",
+    "label": "Weigt per Wheel",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_galleryalbumdownl",
+    "label": "Gallery Album Download",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productlifecycledescri",
+    "label": "Product Life Cycle",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shopint",
+    "label": "PRICE_SHOPINT",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_newproductforicsearchf",
+    "label": "NEW PRODUCT ? (for IC search function)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weight1",
+    "label": "Weight (2)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weight2",
+    "label": "Weight (3)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bearingoverview",
+    "label": "Bearing Overview",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheeloverview",
+    "label": "Wheel Overview",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_frameoverview",
+    "label": "Frame Overview",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheloverview",
+    "label": "Wheel Overview (2)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_plateoverview",
+    "label": "Plate Overview",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bootoverview",
+    "label": "Boot Overview",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_weight3",
+    "label": "Weight (4)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_productoverviewl",
+    "label": "Product Overview: Last",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_orderdeadline",
+    "label": "ORDER DEADLINE CHINA",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_supplierponumber",
+    "label": "Supplier PO number",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_approximatelyreadych",
+    "label": "APPROX READY DATE CHINA",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upgradeparts",
+    "label": "Upgrade and Customize Parts",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceeursrpnew",
+    "label": "PRICE-EURSRP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceusdshopnew",
+    "label": "PRICE-USDSHOP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceusdsrpnew",
+    "label": "PRICE-USDSRP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pricegbpwspnew",
+    "label": "PRICE-GBPWSP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pricegbpsrpnew",
+    "label": "PRICE-GBPSRP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceusddistrinew",
+    "label": "PRICE-USDDISTRI-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pricefobnew",
+    "label": "PRICE-FOB-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceshopintnew",
+    "label": "PRICE-SHOPINT-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_stockqty",
+    "label": "AvailStockQty",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_releasepromo",
+    "label": "Release Promo",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_allproductsforicsearch",
+    "label": "ALL Products (for IC search function)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_reviewexternal",
+    "label": "Review External",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view10",
+    "label": "View10",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_anzahlverfolgen",
+    "label": "Anzahl verfolgen",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_nextarrival",
+    "label": "NextArrival",
+    "type": "string",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_qtynextarr",
+    "label": "QtyNextArr",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bundleincludedprodu",
+    "label": "Bundle included products",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pinterest",
+    "label": "Pinterest",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_videossalesmater",
+    "label": "Videos - Sales Material",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view11",
+    "label": "View0 (2)",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_view81",
+    "label": "View8 (2)",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_netweightkg",
+    "label": "Net weight (kg) (2)",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_netweightkg1",
+    "label": "Net weight (kg) (3)",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productoverviewheelra",
+    "label": "Product Overview: Heel Raise",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizechartjpg",
+    "label": "Size Chart_JPG",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_einheit",
+    "label": "Unit",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_coloroptions",
+    "label": "Color options",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialdatasheetm",
+    "label": "Material Data Sheet MSDS",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weight4",
+    "label": "Weight (6)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_maxwheeelsize",
+    "label": "Max. Wheel Size (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_mountningdistanceofbra",
+    "label": "Mountning Distance of Brake Center Axle to Center Axle",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_materialbrakehous",
+    "label": "Material Brake Housing",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_namebrakepad",
+    "label": "Name Brake Pad",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakepadsizes",
+    "label": "Brake Pad Sizes",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_lipshape",
+    "label": "Wheel Lip",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_contactpatch",
+    "label": "Contact Patch",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelprofil",
+    "label": "Wheel Profil",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_coreplacement",
+    "label": "Core Placement",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_surfacetype",
+    "label": "Surface Type",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_gender",
+    "label": "Gender 1",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_gender2",
+    "label": "Gender 2",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_bootmountingstanda",
+    "label": "Boot Mounting Standard",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shopifyhandleproduc",
+    "label": "Shopify ”Handle” (Product ID)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_3d",
+    "label": "3D",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_paddincapsremova",
+    "label": "Paddin / Caps Removable",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_segment31",
+    "label": "Segment 4 (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinksport",
+    "label": "Buy Button_Link_Der Rollenshop",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkgrindho",
+    "label": "Buy Button_Link_Grindhouse",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkbladevi",
+    "label": "Buy Button_Link_Bladeville",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkproskater",
+    "label": "Buy Button_Link_Proskaters Place",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkinlinewar",
+    "label": "Buy Button_Link_Inline Warehouse",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkwarehouse",
+    "label": "Buy Button_Link_Warehouse One",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinklignedro",
+    "label": "Buy Button_Link_Ligne Droite",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinknom",
+    "label": "Buy Button_Link_Nomade",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkskated",
+    "label": "Buy Button_Link_Skate Dump",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkplutosp",
+    "label": "Buy Button_Link_Pluto Sport",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkiner",
+    "label": "Buy Button_Link_Inercia",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkskate",
+    "label": "Buy Button_Link_Skatepro",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkloco",
+    "label": "Buy Button_Link_Loco",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_rfidstickersizet",
+    "label": "RFID Sticker size / type",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_rfidstickerposit",
+    "label": "RFID Sticker position",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_eanstickeradditio",
+    "label": "EAN Sticker additional",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_supplier",
+    "label": "Supplier",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonproductdescripti",
+    "label": "Amazon + Ebay Product Description DE",
+    "type": "long_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonheadlinede",
+    "label": "Amazon Headline DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight1",
+    "label": "Amazon Highlight 1 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight2",
+    "label": "Amazon Highlight 2 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight3",
+    "label": "Amazon Highlight 3 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_boottypede",
+    "label": "Amazon Boot type DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbootmountingstan",
+    "label": "Amazon Boot Mounting Standard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonclosurede",
+    "label": "Amazon Closure DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframemateria",
+    "label": "Amazon Frame Overview DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheeloverv",
+    "label": "Amazon Wheel Overview DE (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingovervie",
+    "label": "Amazon Bearing Overview DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonextrazubeho",
+    "label": "Amazon Extra Zubehör DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonboottype",
+    "label": "Amazon Boot Type DE (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbootclosur",
+    "label": "Amazon Boot Closure DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonplateovervie",
+    "label": "Amazon Plate Overview DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelovervie",
+    "label": "Amazon Wheel Overview DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncolorde1",
+    "label": "Amazon Color DE (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncolorde2",
+    "label": "Amazon Color DE (3)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncolorde3",
+    "label": "Amazon Color DE (4)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncolorde4",
+    "label": "Amazon Color DE (5)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncolorde5",
+    "label": "Amazon Color DE (6)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonweight",
+    "label": "Amazon Weight DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbladenamede",
+    "label": "Amazon Blade Name DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonblademateria",
+    "label": "Amazon Blade Material DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbladeholdermater",
+    "label": "Amazon Blade Holder Material DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbladehardnes",
+    "label": "Amazon Blade Hardness DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialupperlin",
+    "label": "Amazon Material Upper / Liner DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncoloroptio",
+    "label": "Amazon Color Options DE",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighligt3de",
+    "label": "Amazon Highligt 3 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkrollerwar",
+    "label": "Buy Button_Link_Rollerwarehouse",
+    "type": "url",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonincludedaccessor",
+    "label": "Amazon Included Accessories",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazondeckde",
+    "label": "Amazon Deck Overview DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazontbar",
+    "label": "Amazon T-Bar Overview DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonheadsetde",
+    "label": "Amazon Headset DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_deckoverview",
+    "label": "Deck Overview",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_tbaroverview",
+    "label": "T-bar Overview",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheeloverv1",
+    "label": "Amazon Wheel Overview DE (3)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelcompoun",
+    "label": "Amazon Wheel Compound DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheeldiamete",
+    "label": "Amazon Wheel Diameter DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelhardnes",
+    "label": "Amazon Wheel Hardness DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelwidt",
+    "label": "Amazon Wheel Width DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheeliinser",
+    "label": "Amazon Wheel Insert DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelprofil",
+    "label": "Amazon Wheel Profile DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelsurfac",
+    "label": "Amazon Wheel Surface DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonwheelcorede",
+    "label": "Amazon Wheel Core DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight21",
+    "label": "Amazon Highlight 2 DE (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingbran",
+    "label": "Amazon Bearing Brand DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingstandar",
+    "label": "Amazon Bearing Standard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingratin",
+    "label": "Amazon Bearing Rating DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingring",
+    "label": "Amazon Material Bearing Rings DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingball",
+    "label": "Amazon Material Bearing Balls DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonnumberofball",
+    "label": "Amazon Number of Balls DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialbearingc",
+    "label": "Amazon Material Bearing Cage DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearingshiel",
+    "label": "Amazon Bearing Shield DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonbearinglubrican",
+    "label": "Amazon Bearing Lubricant DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight",
+    "label": "Amazon Highlight 2 DE (3)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframenamede",
+    "label": "Amazon Frame Name DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframemountingsta",
+    "label": "Amazon Frame Mounting Standard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframemateria1",
+    "label": "Amazon Frame Material DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframemanufacturi",
+    "label": "Amazon Frame Manufacturing Process DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframeconstructio",
+    "label": "Amazon Frame Construction DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframewheelbasein",
+    "label": "Amazon Frame Wheel Base (Inch / MM) DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonstandingheightfr",
+    "label": "Amazon Standing Height Front and Rear in MM DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframesetup",
+    "label": "Amazon Frame Setup DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaxwheelsiz",
+    "label": "Amazon Max. Wheel Size DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonframeaxle",
+    "label": "Amazon Frame Axles DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonadjustablefrontt",
+    "label": "Amazon Adjustable Front to Back DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonadjustablesideto",
+    "label": "Amazon Adjustable Side to Side DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonincludedaccessor1",
+    "label": "Amazon Included Accessories DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonadjustableheadri",
+    "label": "Amazon Adjustable Headring DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonoutsideshellcons",
+    "label": "Amazon Outside Shell Construction DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonoutsideshellmate",
+    "label": "Amazon outside Shell Material DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonpadingmaterialhe",
+    "label": "Amazon Pading Material Helmet DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonepsde",
+    "label": "Amazon EPS DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonstrapshelme",
+    "label": "Amazon Straps Helmet DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonclosurehelme",
+    "label": "Amazon Closure Helmet DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncapmaterialkneea",
+    "label": "Amazon Material Cap Knee and Elbow Pads DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonuppermaterialkne",
+    "label": "Amazon Material Upper Knee and Elbow Pads DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonpaddingmaterialk",
+    "label": "Amazon Material Padding Knee and Elbow Pads DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonliningmaterialkn",
+    "label": "Amazon Material Lining Knee and Elbow Pads DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonsockconstruction",
+    "label": "Amazon Sock Construction Knee and Elbow Pads DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonstrapskneeandelb",
+    "label": "Amazon Straps Knee and Elbow Pads DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialsplintsl",
+    "label": "Amazon Material Splint/Slider Wristguard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialupperwri",
+    "label": "Amazon Material Upper Wristguard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialpaddingw",
+    "label": "Amazon Material Padding Wristguard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialliningwr",
+    "label": "Amazon Material Lining Wristguard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonstrapswristguar",
+    "label": "Amazon Straps Wristguard DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaterialcomposit",
+    "label": "Amazon Material Composition DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonfeature1de",
+    "label": "Amazon Feature 1 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonfeature2de",
+    "label": "Amazon Feature 2 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonfeature3de",
+    "label": "Amazon Feature 3 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoncoloropti",
+    "label": "Amazon Color Options",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ebaycoloroptionvaria",
+    "label": "Ebay Color Option / Variante",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ebayzustand",
+    "label": "Ebay Zustand",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ebayzustandsbeschreib",
+    "label": "Ebay Zustandsbeschreibung",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_angebotsformat",
+    "label": "Ebay Angebotsformat",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ebaypreisvorsch",
+    "label": "Ebay Preisvorschlag",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_model",
+    "label": "Model",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonproducttype",
+    "label": "Amazon Product Type",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonvariation",
+    "label": "Amazon Variation",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_decathloncategor",
+    "label": "Decathlon Category DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_marketplaceseotex",
+    "label": "EBay Product Description DE",
+    "type": "long_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_inventoryquantity",
+    "label": "Inventory Quantity",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight4",
+    "label": "Amazon Highlight 4 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonhighlight5",
+    "label": "Amazon Highlight 5 DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_toolspecification",
+    "label": "Tool Specification",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_lengthoflacespershoes",
+    "label": "Length of Laces per Shoe Size",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_sizechartjpgmobilev",
+    "label": "Size Chart_JPG_Mobile view",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_countryoforiginiso2c",
+    "label": "Country of Origin_ISO-2 code",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_tirewheelwidth",
+    "label": "Tire / Wheel Width",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upselldiscounttit",
+    "label": "Upsell Discount title 1",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upselldiscounthand",
+    "label": "Upsell Discount Handle 1",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upselldiscounttit1",
+    "label": "Upsell Discount title 2",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upselldiscounthand1",
+    "label": "Upsell Discount Handle 2",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upselldiscounttit2",
+    "label": "Upsell Discount title 3",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_upselldiscounthand2",
+    "label": "Upsell Discount Handle 3",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheeldiameter1",
+    "label": "Wheel Diameter (3)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wheelcompound2",
+    "label": "Wheel Compound (4)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_weightperwheel1",
+    "label": "Weight per Wheel",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_variantsavailabilityno",
+    "label": "Products Availability Notice",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonvariationc",
+    "label": "BuyButtonVariationCode",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_marketplaceheadlinede8",
+    "label": "EBay Headline DE 80 signs",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shopifyhandlecollectio",
+    "label": "Shopify ”Handle” (Collection ID)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_batteryincludedneededm",
+    "label": "Battery included/needed - Marketplaces",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ebaydescriptionwithful",
+    "label": "undefined",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_marketplacevolume",
+    "label": "Marketplace Volume",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazondecklength",
+    "label": "Amazon Deck Length - inch",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazondeckwidthi",
+    "label": "Amazon Deck width - inch",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonmaxuserwei",
+    "label": "Amazon Max. User Weight",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazoninlineskateheigt",
+    "label": "Amazon Inline Skate Heigth in CM",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_manualdiscsystem",
+    "label": "Manual Disc System",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_msdsreport",
+    "label": "MSDS Report",
+    "type": "file",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_ohnetitel1",
+    "label": "Ohne Titel 1",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_linerthicknessfr",
+    "label": "Liner thickness front",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_linerthicknessan",
+    "label": "Liner thickness ankle",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_linerthicknesstopcuffa",
+    "label": "Liner thickness top cuff area",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_linerthicknesston",
+    "label": "Liner thickness tongue",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_brakeinformation",
+    "label": "Brake Information",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_brandsincludedinprod",
+    "label": "Brands included in product",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_eco",
+    "label": "Eco",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_vegannew",
+    "label": "Vegan_new",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_intersportfedas",
+    "label": "Intersport - FEDAS",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wspeur",
+    "label": "WSP EUR",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_srpeur",
+    "label": "SRP EUR",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wspusa",
+    "label": "WSP USA $",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_srpusa",
+    "label": "SRP USA $",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wspgbp",
+    "label": "WSP GBP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_srpgbp",
+    "label": "SRP GBP",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_shopint1",
+    "label": "SHOPINT $",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_wspdistri",
+    "label": "WSP DISTRI $",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceeurwspold",
+    "label": "PRICE-EURWSP-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceeursrpold",
+    "label": "PRICE-EURSRP-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceusdshopold",
+    "label": "PRICE-USDSHOP-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceusdsrpold",
+    "label": "PRICE-USDSRP-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pricegbpwspold",
+    "label": "PRICE-GBPWSP-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pricegbpsrpold",
+    "label": "PRICE-GBPSRP-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceusddistriold",
+    "label": "PRICE-USDDISTRI-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_pricefobold",
+    "label": "PRICE-FOB-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_priceshopintold",
+    "label": "PRICE-SHOPINT-OLD",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_sensiblerelease",
+    "label": "SENSIBLE RELEASE",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_productlifecycle",
+    "label": "Product Lifecycle",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_status",
+    "label": "Status Pricelist",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_customsdescript",
+    "label": "Customs Description",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_fittinglengthwi",
+    "label": "Fitting Length / Width",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkthisiss",
+    "label": "Buy Button_Link_ThisIsSoul",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_extrainfofordropshipm",
+    "label": "Extra info for dropshipment",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_skugsd",
+    "label": "SKU GSD (old)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_indiamarketpricenotsyn",
+    "label": "India Market Price $ (not synced)",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_skuweclapp",
+    "label": "undefined",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_icebladecompatibil",
+    "label": "Ice Blade Compatibility",
+    "type": "link_items",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_icebladeinformat",
+    "label": "Ice Blade information",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_marketplaceready",
+    "label": "MARKETPLACE UPLOAD",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_marketplacecontentchec",
+    "label": "Marketplace content checked?",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_amazonsku",
+    "label": "Amazon SKU",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttoninlinex",
+    "label": "Buy Button_Link_Inlinex",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_eanurl",
+    "label": "EAN URL",
+    "type": "number",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_approxcontainerarrival",
+    "label": "Approx. Container Arrival Date",
+    "type": "string",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_bblfdnr",
+    "label": "BB lfdnr",
+    "type": "boolean",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_buybuttonlinkgo4sp",
+    "label": "Buy Button_Link_Go4Sport",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_viewoverlay",
+    "label": "ViewOverlay",
+    "type": "image_pack",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_publishb2bchann",
+    "label": "Publish B2B Channels",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_publishb2cchann",
+    "label": "Publish B2C Channels",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "prod_releasedate",
+    "label": "Release Date",
+    "type": "string",
+    "multilingual": false,
+    "level": "product"
+  },
+  {
+    "key": "frmt_id",
+    "label": "frmt_id",
+    "type": "integer",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_ref",
+    "label": "VariantReference",
+    "type": "reference",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_stat",
+    "label": "Status",
+    "type": "status",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_tags",
+    "label": "Tags",
+    "type": "tags",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "prod_ref",
+    "label": "Produktreferenz",
+    "type": "reference",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "prod_clone_id",
+    "label": "prod_clone_id",
+    "type": "integer",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_modify",
+    "label": "frmt_modify",
+    "type": "string",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_creation",
+    "label": "frmt_creation",
+    "type": "string",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_size",
+    "label": "Size EU",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_preis",
+    "label": "Preis",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_color",
+    "label": "Frame Wheel Base (Inch / MM)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_erprowid",
+    "label": "ERPRowId",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_productname",
+    "label": "Productname",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_ean",
+    "label": "EAN",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_maxwheelsizemm",
+    "label": "Max. Wheel Size MM",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_wheelsetup",
+    "label": "Wheel Setup",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_platesize",
+    "label": "Plate Size",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_grindblocksize",
+    "label": "Grind Block Size",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_bruttogewicht",
+    "label": "Gross weight (kg)",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_nettogewicht",
+    "label": "Net weight (kg)",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_productpackaginglen",
+    "label": "Product Packaging Length (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_productpackagingwi",
+    "label": "Product Packaging Width (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_productpackaginghei",
+    "label": "Product Packaging Height (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_vpeproductqty",
+    "label": "VPE Product QTY",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_vpepackaginglen",
+    "label": "VPE Packaging Length (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_vpepackagingwidth",
+    "label": "VPE Packaging Width (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_vpepackaginghei",
+    "label": "VPE Packaging Height (m)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_vpenetweightkg",
+    "label": "VPE Net weight (kg)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_vpegrossweightkg",
+    "label": "VPE Gross weight (kg)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_amazonasin",
+    "label": "Amazon ASIN",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_availstockqty",
+    "label": "Inventory Quantity",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_bootmountingstand",
+    "label": "Boot Mounting Standard",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_nextarrival",
+    "label": "NextArrival",
+    "type": "string",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_qtynextarr",
+    "label": "QtyNextArr",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_eurwsp",
+    "label": "EURWSP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_eursrp",
+    "label": "EURSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_usdshop",
+    "label": "USDSHOP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_usdsrp",
+    "label": "USDSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_gbpwsp",
+    "label": "GBPWSP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_gbpsrp",
+    "label": "GBPSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_usddistri",
+    "label": "USDDISTRI",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_fob",
+    "label": "FOB",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceshopint",
+    "label": "PRICE_SHOPINT",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_marketplaceheadlinevar",
+    "label": "Marketplace Headline Variants EN",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_marketplaceheadlinevar1",
+    "label": "Marketplace Headline Variants DE",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_variantsavailabilityno",
+    "label": "Variants Availability Notice",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_variantsbuybuttonvaria",
+    "label": "BuyButtonVariationCode",
+    "type": "checklist",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_correspondingsi",
+    "label": "Corresponding Sizes",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_compareatpriceeur",
+    "label": "Compare at price EURSRP",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_qty",
+    "label": "Inventory Quantity (2)",
+    "type": "short_text",
+    "multilingual": true,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_productpackaginglen1",
+    "label": "Product Packaging Length (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_productpackaginglen2",
+    "label": "Product Packaging Length (3)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_euwsp",
+    "label": "EURWSP (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_eusrp",
+    "label": "EURSRP (2)",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_variantsavailablenot",
+    "label": "Variants available notice",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_skugsd",
+    "label": "SKU GSD",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceeurwspnew",
+    "label": "PRICE-EURWSP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceeursrpnew",
+    "label": "PRICE-EURSRP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceusdshopnew",
+    "label": "PRICE-USDSHOP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceusdsrpnew",
+    "label": "PRICE-USDSRP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_pricegbpwspnew",
+    "label": "PRICE-GBPWSP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_pricegbpsrpnew",
+    "label": "PRICE-GBPSRP-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceusddistrinew",
+    "label": "PRICE-USDDISTRI-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_pricefobnew",
+    "label": "PRICE-FOB-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_priceshopintnew",
+    "label": "PRICE-SHOPINT-NEW",
+    "type": "number",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_skuweclapp",
+    "label": "SKU WeClapp",
+    "type": "short_text",
+    "multilingual": false,
+    "level": "variant"
+  },
+  {
+    "key": "frmt_approxcontainerarrival",
+    "label": "Approx. Container Arrival Date",
+    "type": "string",
+    "multilingual": false,
+    "level": "variant"
+  }
+]
