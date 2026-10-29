@@ -13,22 +13,12 @@
     },
     {
       "id": "master",
-      "name": "Master pricelist",
+      "name": "Master price list",
       "short": "MP",
-      "role": "Commercial source",
+      "role": "Product master & automations",
       "color": "#e7bd78",
-      "description": "Product master details, pricing history and commercial planning. Google Sheets · Prices & Details.",
+      "description": "Product details, pricing history and commercial planning. Includes the Admin pricelist scripts and filtered price projections as one logical system. Projection aliases remain separate from sheet columns until their formulas are verified.",
       "x": 0,
-      "y": 360
-    },
-    {
-      "id": "admin",
-      "name": "Admin pricelist",
-      "short": "AP",
-      "role": "Automation hub",
-      "color": "#df977c",
-      "description": "Filtered price projections and Apps Script actions that distribute production prices.",
-      "x": 335,
       "y": 360
     },
     {
@@ -12167,13 +12157,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:status_pricelist",
-      "system": "admin",
+      "id": "master:projection:status_pricelist",
+      "system": "master",
       "key": "status_pricelist",
       "label": "status_pricelist",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.status_pricelist",
@@ -12185,13 +12176,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:product_lifecycle",
-      "system": "admin",
+      "id": "master:projection:product_lifecycle",
+      "system": "master",
       "key": "product_lifecycle",
       "label": "product_lifecycle",
       "level": "projection",
       "group": "status",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.product_lifecycle",
@@ -12203,13 +12195,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:EURWSP",
-      "system": "admin",
+      "id": "master:projection:EURWSP",
+      "system": "master",
       "key": "EURWSP",
       "label": "EURWSP",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.EURWSP",
@@ -12221,13 +12214,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:EURSRP",
-      "system": "admin",
+      "id": "master:projection:EURSRP",
+      "system": "master",
       "key": "EURSRP",
       "label": "EURSRP",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.EURSRP",
@@ -12239,13 +12233,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:USDSHOP",
-      "system": "admin",
+      "id": "master:projection:USDSHOP",
+      "system": "master",
       "key": "USDSHOP",
       "label": "USDSHOP",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.USDSHOP",
@@ -12257,13 +12252,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:USDSRP",
-      "system": "admin",
+      "id": "master:projection:USDSRP",
+      "system": "master",
       "key": "USDSRP",
       "label": "USDSRP",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.USDSRP",
@@ -12275,13 +12271,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:GBPWSP",
-      "system": "admin",
+      "id": "master:projection:GBPWSP",
+      "system": "master",
       "key": "GBPWSP",
       "label": "GBPWSP",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.GBPWSP",
@@ -12293,13 +12290,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:GBPSRP",
-      "system": "admin",
+      "id": "master:projection:GBPSRP",
+      "system": "master",
       "key": "GBPSRP",
       "label": "GBPSRP",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.GBPSRP",
@@ -12311,13 +12309,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:PRICE_SHOPINT",
-      "system": "admin",
+      "id": "master:projection:PRICE_SHOPINT",
+      "system": "master",
       "key": "PRICE_SHOPINT",
       "label": "PRICE_SHOPINT",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.PRICE_SHOPINT",
@@ -12329,13 +12328,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:USDDISTRI",
-      "system": "admin",
+      "id": "master:projection:USDDISTRI",
+      "system": "master",
       "key": "USDDISTRI",
       "label": "USDDISTRI",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.USDDISTRI",
@@ -12347,13 +12347,14 @@
       "evidence": "Verified in code"
     },
     {
-      "id": "admin:projection:FOB",
-      "system": "admin",
+      "id": "master:projection:FOB",
+      "system": "master",
       "key": "FOB",
       "label": "FOB",
       "level": "projection",
       "group": "prices",
-      "evidence": "Verified in code"
+      "evidence": "Verified in code",
+      "context": "Admin scripts / filtered price projection within Master price list. "
     },
     {
       "id": "sl:connector input:connector.FOB",
@@ -13145,6 +13146,7 @@
       "platform": "Google Apps Script",
       "sourceRef": "dev list scripts/SendtoPricelist.js",
       "rules": [
+        "This manual route can write Quote back to Master. It conflicts with the confirmed price ownership rule: Master price list owns all pricing. Review the script selection before automating.",
         "Exact header-name matching within named sync ranges.",
         "Insert missing model rows; update selected cells.",
         "Main Segment and Main segment differ: no automatic match."
@@ -13296,32 +13298,12 @@
           ],
           "rule": "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification."
         }
-      ]
+      ],
+      "ownershipConflict": "This manual route can write Quote back to Master. It conflicts with the confirmed price ownership rule: Master price list owns all pricing. Review the script selection before automating."
     },
     {
-      "id": "master-admin",
+      "id": "master-prices-sl",
       "source": "master",
-      "target": "admin",
-      "name": "Price projection",
-      "groups": [
-        "prices",
-        "identity",
-        "status"
-      ],
-      "mode": "Sheet formula",
-      "schedule": "Sheet recalculation · formula details pending",
-      "platform": "Google Sheets",
-      "sourceRef": "Reported by owner; admin pricelist script inputs",
-      "rules": [
-        "Admin uses Prices & Details filtred. Exact upstream formulas are not inventoried."
-      ],
-      "evidence": "Reported",
-      "activation": "Not independently verified",
-      "mappings": []
-    },
-    {
-      "id": "admin-sl",
-      "source": "admin",
       "target": "sl",
       "name": "Prices & lifecycle",
       "groups": [
@@ -13330,7 +13312,7 @@
       ],
       "mode": "Manual",
       "schedule": "Production sync action",
-      "platform": "Apps Script · REST validation + import connector",
+      "platform": "Master price list · Admin scripts · Apps Script · REST validation + import connector",
       "sourceRef": "admin pricelist scripts/SL v2.js",
       "rules": [
         "Validate references with Catalog API, then send connector payload.",
@@ -13341,7 +13323,7 @@
       "mappings": [
         {
           "from": [
-            "admin:projection:status_pricelist"
+            "master:projection:status_pricelist"
           ],
           "to": [
             "sl:connector input:connector.status_pricelist"
@@ -13350,7 +13332,7 @@
         },
         {
           "from": [
-            "admin:projection:product_lifecycle"
+            "master:projection:product_lifecycle"
           ],
           "to": [
             "sl:connector input:connector.product_lifecycle"
@@ -13359,7 +13341,7 @@
         },
         {
           "from": [
-            "admin:projection:EURWSP"
+            "master:projection:EURWSP"
           ],
           "to": [
             "sl:connector input:connector.EURWSP"
@@ -13368,7 +13350,7 @@
         },
         {
           "from": [
-            "admin:projection:EURSRP"
+            "master:projection:EURSRP"
           ],
           "to": [
             "sl:connector input:connector.EURSRP"
@@ -13377,7 +13359,7 @@
         },
         {
           "from": [
-            "admin:projection:USDSHOP"
+            "master:projection:USDSHOP"
           ],
           "to": [
             "sl:connector input:connector.USDSHOP"
@@ -13386,7 +13368,7 @@
         },
         {
           "from": [
-            "admin:projection:USDSRP"
+            "master:projection:USDSRP"
           ],
           "to": [
             "sl:connector input:connector.USDSRP"
@@ -13395,7 +13377,7 @@
         },
         {
           "from": [
-            "admin:projection:GBPWSP"
+            "master:projection:GBPWSP"
           ],
           "to": [
             "sl:connector input:connector.GBPWSP"
@@ -13404,7 +13386,7 @@
         },
         {
           "from": [
-            "admin:projection:GBPSRP"
+            "master:projection:GBPSRP"
           ],
           "to": [
             "sl:connector input:connector.GBPSRP"
@@ -13413,7 +13395,7 @@
         },
         {
           "from": [
-            "admin:projection:PRICE_SHOPINT"
+            "master:projection:PRICE_SHOPINT"
           ],
           "to": [
             "sl:connector input:connector.PRICE_SHOPINT"
@@ -13422,7 +13404,7 @@
         },
         {
           "from": [
-            "admin:projection:USDDISTRI"
+            "master:projection:USDDISTRI"
           ],
           "to": [
             "sl:connector input:connector.USDDISTRI"
@@ -13431,7 +13413,7 @@
         },
         {
           "from": [
-            "admin:projection:FOB"
+            "master:projection:FOB"
           ],
           "to": [
             "sl:connector input:connector.FOB"
@@ -13441,8 +13423,8 @@
       ]
     },
     {
-      "id": "admin-wc",
-      "source": "admin",
+      "id": "master-prices-wc",
+      "source": "master",
       "target": "weclapp",
       "name": "Sales channel prices",
       "groups": [
@@ -13450,7 +13432,7 @@
       ],
       "mode": "Manual",
       "schedule": "Production sync action",
-      "platform": "Google Apps Script · Weclapp API",
+      "platform": "Master price list · Admin scripts · Google Apps Script · Weclapp API",
       "sourceRef": "admin pricelist scripts/weclapp v2.js",
       "rules": [
         "Visible filtered rows only. Nine channel / currency price slots."
@@ -13460,7 +13442,7 @@
       "mappings": [
         {
           "from": [
-            "admin:projection:EURWSP"
+            "master:projection:EURWSP"
           ],
           "to": [
             "weclapp:article:articlePrices.NET1"
@@ -13469,7 +13451,7 @@
         },
         {
           "from": [
-            "admin:projection:EURSRP"
+            "master:projection:EURSRP"
           ],
           "to": [
             "weclapp:article:articlePrices.GROSS1"
@@ -13478,7 +13460,7 @@
         },
         {
           "from": [
-            "admin:projection:USDSHOP"
+            "master:projection:USDSHOP"
           ],
           "to": [
             "weclapp:article:articlePrices.NET12"
@@ -13487,7 +13469,7 @@
         },
         {
           "from": [
-            "admin:projection:USDSRP"
+            "master:projection:USDSRP"
           ],
           "to": [
             "weclapp:article:articlePrices.GROSS12"
@@ -13496,7 +13478,7 @@
         },
         {
           "from": [
-            "admin:projection:GBPWSP"
+            "master:projection:GBPWSP"
           ],
           "to": [
             "weclapp:article:articlePrices.NET13"
@@ -13505,7 +13487,7 @@
         },
         {
           "from": [
-            "admin:projection:GBPSRP"
+            "master:projection:GBPSRP"
           ],
           "to": [
             "weclapp:article:articlePrices.GROSS11"
@@ -13514,7 +13496,7 @@
         },
         {
           "from": [
-            "admin:projection:PRICE_SHOPINT"
+            "master:projection:PRICE_SHOPINT"
           ],
           "to": [
             "weclapp:article:articlePrices.NET11"
@@ -13523,7 +13505,7 @@
         },
         {
           "from": [
-            "admin:projection:USDDISTRI"
+            "master:projection:USDDISTRI"
           ],
           "to": [
             "weclapp:article:articlePrices.NET14"
@@ -13532,7 +13514,7 @@
         },
         {
           "from": [
-            "admin:projection:FOB"
+            "master:projection:FOB"
           ],
           "to": [
             "weclapp:article:articlePrices.NET15"
@@ -13542,8 +13524,8 @@
       ]
     },
     {
-      "id": "admin-b2b",
-      "source": "admin",
+      "id": "master-prices-b2b",
+      "source": "master",
       "target": "b2b",
       "name": "B2B catalog prices",
       "groups": [
@@ -13551,7 +13533,7 @@
       ],
       "mode": "Hybrid",
       "schedule": "On demand · API ≤49 models; bulk CSV above 49",
-      "platform": "Apps Script · Shopify GraphQL / CSV",
+      "platform": "Master price list · Admin scripts · Apps Script · Shopify GraphQL / CSV",
       "sourceRef": "admin pricelist scripts/to shopify catalogs.js",
       "rules": [
         "Direct API for up to 49 distinct parent references.",
@@ -13563,7 +13545,7 @@
       "mappings": [
         {
           "from": [
-            "admin:projection:EURWSP"
+            "master:projection:EURWSP"
           ],
           "to": [
             "b2b:catalog:catalog.price.EURWSP"
@@ -13572,7 +13554,7 @@
         },
         {
           "from": [
-            "admin:projection:GBPWSP"
+            "master:projection:GBPWSP"
           ],
           "to": [
             "b2b:catalog:catalog.price.GBPWSP"
@@ -13581,7 +13563,7 @@
         },
         {
           "from": [
-            "admin:projection:USDSHOP"
+            "master:projection:USDSHOP"
           ],
           "to": [
             "b2b:catalog:catalog.price.USDSHOP"
@@ -13590,7 +13572,7 @@
         },
         {
           "from": [
-            "admin:projection:PRICE_SHOPINT"
+            "master:projection:PRICE_SHOPINT"
           ],
           "to": [
             "b2b:catalog:catalog.price.PRICE_SHOPINT"
@@ -13599,7 +13581,7 @@
         },
         {
           "from": [
-            "admin:projection:USDDISTRI"
+            "master:projection:USDDISTRI"
           ],
           "to": [
             "b2b:catalog:catalog.price.USDDISTRI"
@@ -13608,7 +13590,7 @@
         },
         {
           "from": [
-            "admin:projection:FOB"
+            "master:projection:FOB"
           ],
           "to": [
             "b2b:catalog:catalog.price.FOB"
@@ -13929,5 +13911,48 @@
         }
       ]
     }
-  ]
+  ],
+  "creation": {
+    "evidence": "Reported by owner",
+    "note": "Product creation starts in Develop. Registration in Master price list and Weclapp happens at approximately the same stage, followed by Sales Layer and then Shopify. This is the business sequence, not a verified field-to-field integration. The exact handoff into Weclapp still needs confirmation.",
+    "stages": [
+      {
+        "title": "Develop the product",
+        "systems": [
+          "dev"
+        ],
+        "description": "Starting point for a new product."
+      },
+      {
+        "title": "Register & price",
+        "systems": [
+          "master",
+          "weclapp"
+        ],
+        "description": "Master and Weclapp are populated at approximately the same stage. Exact handoff to confirm."
+      },
+      {
+        "title": "Enrich & prepare",
+        "systems": [
+          "sl"
+        ],
+        "description": "Product information is prepared for the sales channels."
+      },
+      {
+        "title": "Publish to stores",
+        "systems": [
+          "b2b",
+          "b2c"
+        ],
+        "description": "Sales Layer supplies the B2B and B2C storefronts."
+      }
+    ]
+  },
+  "ownership": {
+    "prices": {
+      "system": "master",
+      "evidence": "Confirmed by owner",
+      "note": "Master price list is the source of truth for all pricing information. Other systems consume these prices; reverse writes must be reviewed."
+    }
+  }
 }

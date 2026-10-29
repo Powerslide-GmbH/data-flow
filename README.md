@@ -1,6 +1,6 @@
 # Powerslide Data Flow
 
-An interactive documentation map of Powerslide automations and synchronizations. The first inventory covers development and master lists, the admin pricing hub, Weclapp, Sales Layer and Shopify. The model supports additional systems and business processes without changing the UI.
+An interactive documentation map of Powerslide automations and synchronizations. The first inventory covers development and master lists (including Admin scripts), Weclapp, Sales Layer and Shopify. The model supports additional systems and business processes without changing the UI.
 
 ## Run locally
 
@@ -18,7 +18,7 @@ Open the printed local URL under `/data-flow/`. `npm test` checks field tracing,
 Edit `data/map.json`, the canonical application dataset. `data/saleslayer-schema.json` records the field metadata snapshot used for the first inventory (not product records).
 
 - `systems`: stable ID, title, role, description, color and initial x/y coordinates.
-- `groups`: reusable families of fields. The UI renders each populated family as a independent capsule around its system.
+- `groups`: reusable families of fields. The UI renders each populated family as a child capsule inside its expanded system.
 - `fields`: stable ID, system and group IDs, technical key, visible label, entity level, evidence and optional type/context/multilingual flag.
 - `flows`: directional system-to-system route, field families, execution mode, schedule, platform, evidence, activation status, source reference, rules and mappings.
 - `mappings`: source and destination field-ID arrays plus an explicit transformation rule. Several sources or targets are supported. Never invent these from similar names. Leave mappings empty for family-level routes.
@@ -39,6 +39,16 @@ All counts are inventoried fields and documented routes, not counts of synchroni
 
 GitHub Pages uses GitHub Actions. Set Settings → Pages → Source to GitHub Actions. A push to `main` runs tests and builds the static site. The workflow publishes `dist/`. The Vite base path is `/data-flow/`.
 
-Drag system or family capsules freely; nearby capsules move apart. The + button opens family satellites. Select any field in search or the library to see its upstream/downstream journey; documented starting points have a crown and stronger glow. Unknown origins remain explicitly unknown.
+Drag system or family capsules freely; nearby capsules move apart. The + button expands a parent capsule containing its families. Drag the parent to move the whole group. Select any field in search or the library to see its upstream/downstream journey; documented starting points have a crown and stronger glow. Unknown origins remain explicitly unknown.
 
 Layout changes are saved only in the current browser. Arrange resets the map. Float toggles gentle movement, Flow pauses animated transfer particles, and Labels reveals route names. Family membership lines have no transfer animation. Reduced-motion preferences initially disable motion and particles. Animation describes direction, not current traffic.
+
+## Planning and ownership
+
+Product creation is documented separately as Develop → Master / Weclapp (approximately the same stage) → Sales Layer → B2B / B2C. This reported business sequence does not create verified field mappings.
+
+Master price list owns all pricing information, as confirmed by the owner. Admin is its automation layer, not a separate system. Projection aliases remain distinct from sheet columns because the exact formula bindings are not verified. The existing manual Quote write from Develop back into Master is retained as implementation evidence and flagged as an ownership conflict.
+
+Opportunities compares normalized field labels and a small explicit alias list. It excludes documented automatic pairs, highlights manual transfers and flags existing family-level connectors for mapping review. Different levels, duplicate columns and competing writers are shown as checks. Metadata similarity does not establish duplicate manual entry or equal values. Price proposals always originate in Master; the product creation sequence suggests other directions without asserting ownership.
+
+Use New idea to propose a source/destination pair, Shortlist or Dismissed to review, and Notes for decisions. Drafts persist only in the current browser under data-flow-opportunities-v1. Export ideas downloads a JSON backup including resolved proposals and decisions; it does not update the repository or activate any integration.
