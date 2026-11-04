@@ -1,4 +1,4 @@
-export const initialPositions={dev:[0,125],master:[390,0],weclapp:[390,290],sl:[790,145],b2b:[1190,0],b2c:[1190,300]};
+export const initialPositions={dev:[0,235],master:[390,120],weclapp:[780,450],sl:[780,120],b2b:[1170,0],b2c:[1170,190],disroyal:[1170,380],venerate:[1170,570]};
 export function systemNodes(data,expanded,saved={}){
   const parents=[],children=[];
   const valid=p=>p&&Number.isFinite(p.x)&&Number.isFinite(p.y);
