@@ -41,7 +41,7 @@ GitHub Pages uses GitHub Actions. Set Settings → Pages → Source to GitHub Ac
 
 Drag system or family capsules freely; nearby capsules move apart. The + button expands a parent capsule containing its families. Drag the parent to move the whole group. Select any field in search or the library to see its upstream/downstream journey; documented starting points have a crown and stronger glow. Unknown origins remain explicitly unknown.
 
-Layout changes are saved only in the current browser. Arrange resets the map. Float is off by default and toggles gentle movement, Flow pauses animated transfer particles, and Labels reveals route names. Family membership lines have no transfer animation. Reduced-motion preferences initially disable transfer particles as well. Animation describes direction, not current traffic.
+Layout changes are saved only in the current browser. Arrange recalculates the map from documented creation stages and route neighbours. Return routes do not change stage direction. Unstaged leaf systems are placed in the last column for display only; this does not assert a product-creation route. Column widths and spacing adapt to expanded systems. Float is off by default and toggles gentle movement, Flow pauses animated transfer particles, and Labels reveals route names. Family membership lines have no transfer animation. Reduced-motion preferences initially disable transfer particles as well. Animation describes direction, not current traffic.
 
 ## Planning and ownership
 

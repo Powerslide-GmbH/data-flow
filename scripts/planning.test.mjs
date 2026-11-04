@@ -59,3 +59,25 @@ test('all price proposals originate in Master, including bidirectional manual tr
  assert.ok(candidates.length>0);for(const candidate of candidates)assert.equal(candidate.from,'m');
  assert.equal(data.ownership.prices.system,'master');assert.ok(data.flows.find(f=>f.id==='dev-master').ownershipConflict);
 });
+
+import {arrangeSystems} from '../src/arrange.mjs';
+test('hierarchy layout respects stages, handles cycles, and adapts to expanded sizes',()=>{
+ for(const expanded of [[],['sl'],['sl','master']]){
+  const nodes=systemNodes(data,expanded).filter(n=>!n.parentId);
+  const node=id=>nodes.find(n=>n.id===id);
+  assert.ok(node('dev').position.x<node('master').position.x);
+  assert.equal(node('master').position.x,node('weclapp').position.x);
+  assert.ok(node('weclapp').position.x<node('sl').position.x);
+  assert.ok(node('sl').position.x<node('b2b').position.x);
+  for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){
+   const a=nodes[i],b=nodes[j];
+   assert.ok(a.position.x+a.width<=b.position.x||b.position.x+b.width<=a.position.x||a.position.y+a.height<=b.position.y||b.position.y+b.height<=a.position.y);
+  }
+ }
+});
+test('layout follows changed stage definitions rather than hardcoded system coordinates',()=>{
+ const nodes=['a','b','c'].map(id=>({id,width:260,height:116}));
+ const data={creation:{stages:[{systems:['c']},{systems:['a']},{systems:['b']}]},flows:[{source:'c',target:'a'},{source:'a',target:'b'},{source:'b',target:'c'}]};
+ arrangeSystems(nodes,data);
+ assert.ok(nodes[2].position.x<nodes[0].position.x&&nodes[0].position.x<nodes[1].position.x);
+});
