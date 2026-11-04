@@ -52,3 +52,12 @@ Master price list owns all pricing information, as confirmed by the owner. Admin
 Opportunities compares normalized field labels and a small explicit alias list. It excludes documented automatic pairs, highlights manual transfers and flags existing family-level connectors for mapping review. Different levels, duplicate columns and competing writers are shown as checks. Metadata similarity does not establish duplicate manual entry or equal values. Price proposals always originate in Master; the product creation sequence suggests other directions without asserting ownership.
 
 Use New idea to propose a source/destination pair, Shortlist or Dismissed to review, and Notes for decisions. Drafts persist only in the current browser under data-flow-opportunities-v1. Export ideas downloads a JSON backup including resolved proposals and decisions; it does not update the repository or activate any integration.
+
+
+## Admin Price List · ID linking (4 November 2026)
+
+The Admin Price List menu separates sending prices/data from linking Shopify IDs. ID actions have two modes: visible selected references from Prices & Details filtred, or Shopify products created since C24. Both offer All stores, B2B (Powerslide only) and B2C (Powerslide, Disroyal, Venerate). C23 was removed. The general button links selected products across all four stores before sending existing price flows; date mode is independent.
+
+Product/variant GIDs map to the same exact-SKU weclapp article. Native attribute pairs: B2B 10890/10892; Powerslide B2C 22433/22435; Disroyal 4771/4773; Venerate 136860/136862. Unchanged pairs are skipped; partial writes preserve other stores and unrelated data. Details go to Shopify ID Sync Log and combined progress/errors to Production Sync Log. Only non-blocking toast summaries appear; test actions remain available in source but are not in the daily menu.
+
+Queries are batched and paginated. Selected mode avoids downloading unrelated products by creation date. ID and price writes remain separate phases; no claim is made that they are a single API update. Large B2B price sends still prepare a CSV requiring Shopify import. The map documents routes and is not live execution monitoring.

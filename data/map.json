@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-28",
+  "reviewed": "2026-11-04",
   "systems": [
     {
       "id": "dev",
@@ -17,7 +17,7 @@
       "short": "MP",
       "role": "Product master & automations",
       "color": "#e7bd78",
-      "description": "Product details, pricing history and commercial planning. Includes the Admin pricelist scripts and filtered price projections as one logical system. Projection aliases remain separate from sheet columns until their formulas are verified.",
+      "description": "Product details, pricing history and commercial planning. Includes the Admin pricelist scripts and filtered price projections as one logical system. Projection aliases remain separate from sheet columns until their formulas are verified. Admin Price List provides selected-product and creation-date ID linking; its combined button links selected IDs in all four stores before sending prices. Details are recorded in log sheets with non-blocking toasts.",
       "x": 0,
       "y": 360
     },
@@ -95,13 +95,33 @@
     },
     {
       "id": "b2c",
-      "name": "Shopify B2C",
+      "name": "Powerslide Shopify B2C",
       "short": "B2C",
       "role": "Consumer stores",
       "color": "#91c7bb",
-      "description": "Powerslide B2C theme inventory. Other stores can be added as their connectors are reviewed. A separate Disroyal channel was also observed; its field bindings are not yet inventoried.",
+      "description": "Powerslide B2C theme inventory. Other stores can be added as their connectors are reviewed. A separate Disroyal channel was also observed; its field bindings are not yet inventoried. Product and Variant IDs are linked to existing weclapp articles by exact full SKU through Admin Price List.",
       "x": 1040,
       "y": 360
+    },
+    {
+      "id": "disroyal",
+      "name": "Disroyal B2C",
+      "short": "DIS",
+      "role": "Consumer store",
+      "color": "#a2cbbb",
+      "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token.",
+      "x": 1040,
+      "y": 720
+    },
+    {
+      "id": "venerate",
+      "name": "Venerate B2C",
+      "short": "VEN",
+      "role": "Consumer store",
+      "color": "#b9cbb7",
+      "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token.",
+      "x": 1040,
+      "y": 1080
     }
   ],
   "groups": [
@@ -12589,6 +12609,182 @@
       "level": "order",
       "group": "orders",
       "evidence": "Verified in code"
+    },
+    {
+      "id": "b2b:id-link:Product.id",
+      "system": "b2b",
+      "group": "identity",
+      "key": "Product.id",
+      "label": "Product ID · Powerslide B2B",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.10890",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.10890",
+      "label": "Product ID · Powerslide B2B",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "b2b:id-link:ProductVariant.id",
+      "system": "b2b",
+      "group": "identity",
+      "key": "ProductVariant.id",
+      "label": "ProductVariant ID · Powerslide B2B",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.10892",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.10892",
+      "label": "ProductVariant ID · Powerslide B2B",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "b2c:id-link:Product.id",
+      "system": "b2c",
+      "group": "identity",
+      "key": "Product.id",
+      "label": "Product ID · Powerslide B2C",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.22433",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.22433",
+      "label": "Product ID · Powerslide B2C",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "b2c:id-link:ProductVariant.id",
+      "system": "b2c",
+      "group": "identity",
+      "key": "ProductVariant.id",
+      "label": "ProductVariant ID · Powerslide B2C",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.22435",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.22435",
+      "label": "ProductVariant ID · Powerslide B2C",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "disroyal:id-link:Product.id",
+      "system": "disroyal",
+      "group": "identity",
+      "key": "Product.id",
+      "label": "Product ID · Disroyal B2C",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.4771",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.4771",
+      "label": "Product ID · Disroyal B2C",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "disroyal:id-link:ProductVariant.id",
+      "system": "disroyal",
+      "group": "identity",
+      "key": "ProductVariant.id",
+      "label": "ProductVariant ID · Disroyal B2C",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.4773",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.4773",
+      "label": "ProductVariant ID · Disroyal B2C",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "venerate:id-link:Product.id",
+      "system": "venerate",
+      "group": "identity",
+      "key": "Product.id",
+      "label": "Product ID · Venerate B2C",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.136860",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.136860",
+      "label": "Product ID · Venerate B2C",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
+    },
+    {
+      "id": "venerate:id-link:ProductVariant.id",
+      "system": "venerate",
+      "group": "identity",
+      "key": "ProductVariant.id",
+      "label": "ProductVariant ID · Venerate B2C",
+      "level": "variant",
+      "type": "STRING",
+      "evidence": "Verified in code and live API",
+      "context": "Full Shopify GID retained as string. Matched using full variant SKU."
+    },
+    {
+      "id": "weclapp:article:customAttributes.136862",
+      "system": "weclapp",
+      "group": "identity",
+      "key": "customAttributes.136862",
+      "label": "ProductVariant ID · Venerate B2C",
+      "level": "article",
+      "type": "STRING",
+      "evidence": "Verified live API schema · 2026-11-04",
+      "context": "Native system custom attribute. Other store IDs and unrelated attributes are preserved."
     }
   ],
   "flows": [
@@ -13908,6 +14104,182 @@
             "weclapp:order:shippingCostItems.unitPrice"
           ],
           "rule": "Use Shopify presentment currency / amounts. Store routing pending verification."
+        }
+      ]
+    },
+    {
+      "id": "b2b-weclapp-id-link",
+      "source": "b2b",
+      "target": "weclapp",
+      "name": "Powerslide B2B product + variant IDs",
+      "groups": [
+        "identity"
+      ],
+      "mode": "Manual",
+      "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
+      "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
+      "evidence": "Verified in code and live API",
+      "activation": "Connections verified 2026-11-04",
+      "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
+      "rules": [
+        "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
+        "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
+        "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
+        "Missing store SKUs are logged without writes; duplicate SKUs and missing/ambiguous ERP articles are reported. No products/articles are created.",
+        "Skip unchanged pairs; versioned partial updates preserve other attributes. Refresh/retry optimistic-lock conflicts up to three attempts.",
+        "Detailed results: Shopify ID Sync Log. Combined progress/errors: Production Sync Log. Notifications are non-blocking toasts.",
+        "Combined button links selected IDs in all stores, then sends prices through existing weclapp, Sales Layer and B2B Shopify catalog flows. Large catalog batches still require CSV import."
+      ],
+      "mappings": [
+        {
+          "from": [
+            "b2b:id-link:Product.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.10890"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        },
+        {
+          "from": [
+            "b2b:id-link:ProductVariant.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.10892"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        }
+      ]
+    },
+    {
+      "id": "b2c-weclapp-id-link",
+      "source": "b2c",
+      "target": "weclapp",
+      "name": "Powerslide B2C product + variant IDs",
+      "groups": [
+        "identity"
+      ],
+      "mode": "Manual",
+      "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
+      "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
+      "evidence": "Verified in code and live API",
+      "activation": "Connections verified 2026-11-04",
+      "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
+      "rules": [
+        "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
+        "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
+        "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
+        "Missing store SKUs are logged without writes; duplicate SKUs and missing/ambiguous ERP articles are reported. No products/articles are created.",
+        "Skip unchanged pairs; versioned partial updates preserve other attributes. Refresh/retry optimistic-lock conflicts up to three attempts.",
+        "Detailed results: Shopify ID Sync Log. Combined progress/errors: Production Sync Log. Notifications are non-blocking toasts.",
+        "Combined button links selected IDs in all stores, then sends prices through existing weclapp, Sales Layer and B2B Shopify catalog flows. Large catalog batches still require CSV import."
+      ],
+      "mappings": [
+        {
+          "from": [
+            "b2c:id-link:Product.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.22433"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        },
+        {
+          "from": [
+            "b2c:id-link:ProductVariant.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.22435"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        }
+      ]
+    },
+    {
+      "id": "disroyal-weclapp-id-link",
+      "source": "disroyal",
+      "target": "weclapp",
+      "name": "Disroyal B2C product + variant IDs",
+      "groups": [
+        "identity"
+      ],
+      "mode": "Manual",
+      "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
+      "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
+      "evidence": "Verified in code and live API",
+      "activation": "Connections verified 2026-11-04",
+      "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
+      "rules": [
+        "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
+        "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
+        "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
+        "Missing store SKUs are logged without writes; duplicate SKUs and missing/ambiguous ERP articles are reported. No products/articles are created.",
+        "Skip unchanged pairs; versioned partial updates preserve other attributes. Refresh/retry optimistic-lock conflicts up to three attempts.",
+        "Detailed results: Shopify ID Sync Log. Combined progress/errors: Production Sync Log. Notifications are non-blocking toasts.",
+        "Combined button links selected IDs in all stores, then sends prices through existing weclapp, Sales Layer and B2B Shopify catalog flows. Large catalog batches still require CSV import."
+      ],
+      "mappings": [
+        {
+          "from": [
+            "disroyal:id-link:Product.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.4771"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        },
+        {
+          "from": [
+            "disroyal:id-link:ProductVariant.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.4773"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        }
+      ]
+    },
+    {
+      "id": "venerate-weclapp-id-link",
+      "source": "venerate",
+      "target": "weclapp",
+      "name": "Venerate B2C product + variant IDs",
+      "groups": [
+        "identity"
+      ],
+      "mode": "Manual",
+      "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
+      "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
+      "evidence": "Verified in code and live API",
+      "activation": "Connections verified 2026-11-04",
+      "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
+      "rules": [
+        "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
+        "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
+        "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
+        "Missing store SKUs are logged without writes; duplicate SKUs and missing/ambiguous ERP articles are reported. No products/articles are created.",
+        "Skip unchanged pairs; versioned partial updates preserve other attributes. Refresh/retry optimistic-lock conflicts up to three attempts.",
+        "Detailed results: Shopify ID Sync Log. Combined progress/errors: Production Sync Log. Notifications are non-blocking toasts.",
+        "Combined button links selected IDs in all stores, then sends prices through existing weclapp, Sales Layer and B2B Shopify catalog flows. Large catalog batches still require CSV import."
+      ],
+      "mappings": [
+        {
+          "from": [
+            "venerate:id-link:Product.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.136860"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
+        },
+        {
+          "from": [
+            "venerate:id-link:ProductVariant.id"
+          ],
+          "to": [
+            "weclapp:article:customAttributes.136862"
+          ],
+          "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
         }
       ]
     }

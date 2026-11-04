@@ -23,8 +23,8 @@ test('generic repeated names do not imply identical values or new missing integr
  assert.ok(result.find(c=>c.from==='a'&&c.to==='b').cautions.some(c=>c.includes('Different entity levels')));
  assert.equal(findOpportunities({fields:[f('x','master','Net weight'),f('y','sl','VPE Net weight')],flows:[]}).length,0);
 });
-test('consolidation preserves every mapping endpoint and exposes six systems',()=>{
- assert.equal(data.systems.length,6);assert.ok(!data.systems.some(s=>s.id==='admin'));
+test('consolidation preserves every mapping endpoint and includes the four storefronts',()=>{
+ assert.deepEqual(data.systems.map(s=>s.id).sort(),["dev","master","weclapp","sl","b2b","b2c","disroyal","venerate"].sort());assert.ok(!data.systems.some(s=>s.id==='admin'));
  const fields=new Map(data.fields.map(f=>[f.id,f]));
  for(const flow of data.flows){assert.notEqual(flow.source,flow.target);for(const m of flow.mappings){for(const id of m.from)assert.equal(fields.get(id).system,flow.source);for(const id of m.to)assert.equal(fields.get(id).system,flow.target);}}
  assert.deepEqual(data.creation.stages.map(s=>s.systems),[['dev'],['master','weclapp'],['sl'],['b2b','b2c']]);
