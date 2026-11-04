@@ -1,0 +1,1382 @@
+{
+  "Language": {
+    "de": "Sprache",
+    "es": "Idioma"
+  },
+  "Open": {
+    "de": "Öffnen",
+    "es": "Abrir"
+  },
+  "Storefront": {
+    "de": "Shop öffnen",
+    "es": "Tienda"
+  },
+  "Shopify admin": {
+    "de": "Shopify-Admin",
+    "es": "Admin de Shopify"
+  },
+  "Develop sheet": {
+    "de": "Develop-Tabelle",
+    "es": "Hoja Develop"
+  },
+  "Master sheet": {
+    "de": "Master-Tabelle",
+    "es": "Hoja Master"
+  },
+  "Admin sheet": {
+    "de": "Admin-Tabelle",
+    "es": "Hoja Admin"
+  },
+  "Workspace": {
+    "de": "Arbeitsbereich",
+    "es": "Espacio de trabajo"
+  },
+  "Dashboard": {
+    "de": "Übersicht",
+    "es": "Panel"
+  },
+  "Map": {
+    "de": "Karte",
+    "es": "Mapa"
+  },
+  "Product creation": {
+    "de": "Produkterstellung",
+    "es": "Creación de producto"
+  },
+  "Opportunities": {
+    "de": "Möglichkeiten",
+    "es": "Oportunidades"
+  },
+  "Field library": {
+    "de": "Feldverzeichnis",
+    "es": "Biblioteca de campos"
+  },
+  "Repository": {
+    "de": "Repository",
+    "es": "Repositorio"
+  },
+  "SYSTEMS AT A GLANCE": {
+    "de": "SYSTEMÜBERSICHT",
+    "es": "VISTA DE SISTEMAS"
+  },
+  "One map. Every connection.": {
+    "de": "Eine Karte. Alle Verbindungen.",
+    "es": "Un mapa. Todas las conexiones."
+  },
+  "Search fields": {
+    "de": "Felder suchen",
+    "es": "Buscar campos"
+  },
+  "Find a field, follow its journey…": {
+    "de": "Feld suchen und Datenweg verfolgen…",
+    "es": "Busca un campo y sigue su recorrido…"
+  },
+  "Clear search": {
+    "de": "Suche löschen",
+    "es": "Borrar búsqueda"
+  },
+  "Filters": {
+    "de": "Filter",
+    "es": "Filtros"
+  },
+  "System": {
+    "de": "System",
+    "es": "Sistema"
+  },
+  "Family": {
+    "de": "Feldgruppe",
+    "es": "Familia"
+  },
+  "Execution": {
+    "de": "Ausführung",
+    "es": "Ejecución"
+  },
+  "Evidence": {
+    "de": "Nachweis",
+    "es": "Evidencia"
+  },
+  "All systems": {
+    "de": "Alle Systeme",
+    "es": "Todos los sistemas"
+  },
+  "All families": {
+    "de": "Alle Feldgruppen",
+    "es": "Todas las familias"
+  },
+  "All execution types": {
+    "de": "Alle Ausführungsarten",
+    "es": "Todos los tipos de ejecución"
+  },
+  "All evidence": {
+    "de": "Alle Nachweise",
+    "es": "Todas las evidencias"
+  },
+  "Reported / approximate": {
+    "de": "Gemeldet / ungefähr",
+    "es": "Informado / aproximado"
+  },
+  "Verified in code": {
+    "de": "Im Code geprüft",
+    "es": "Verificado en código"
+  },
+  "Clear filters": {
+    "de": "Filter zurücksetzen",
+    "es": "Borrar filtros"
+  },
+  "Filter by system": {
+    "de": "Nach System filtern",
+    "es": "Filtrar por sistema"
+  },
+  "Filter by family": {
+    "de": "Nach Feldgruppe filtern",
+    "es": "Filtrar por familia"
+  },
+  "Filter by execution": {
+    "de": "Nach Ausführung filtern",
+    "es": "Filtrar por ejecución"
+  },
+  "Filter by evidence": {
+    "de": "Nach Nachweis filtern",
+    "es": "Filtrar por evidencia"
+  },
+  "Reviewed": {
+    "de": "Geprüft",
+    "es": "Revisado"
+  },
+  "THE FIELD LIBRARY": {
+    "de": "FELDVERZEICHNIS",
+    "es": "BIBLIOTECA DE CAMPOS"
+  },
+  "All the details, in one place.": {
+    "de": "Alle Details an einem Ort.",
+    "es": "Todos los detalles en un lugar."
+  },
+  "fields": {
+    "de": "Felder",
+    "es": "campos"
+  },
+  "routes": {
+    "de": "Verbindungen",
+    "es": "rutas"
+  },
+  "systems": {
+    "de": "Systeme",
+    "es": "sistemas"
+  },
+  "fields · names and metadata only": {
+    "de": "Felder · nur Namen und Metadaten",
+    "es": "campos · solo nombres y metadatos"
+  },
+  "No fields match these filters.": {
+    "de": "Keine Felder entsprechen diesen Filtern.",
+    "es": "Ningún campo coincide con estos filtros."
+  },
+  "No matching fields.": {
+    "de": "Keine passenden Felder.",
+    "es": "No hay campos coincidentes."
+  },
+  "CONNECTION DETAILS": {
+    "de": "VERBINDUNGSDETAILS",
+    "es": "DETALLES DE CONEXIÓN"
+  },
+  "FIELD JOURNEY": {
+    "de": "DATENWEG",
+    "es": "RECORRIDO DEL CAMPO"
+  },
+  "SYSTEM EXPLORER": {
+    "de": "SYSTEMDETAILS",
+    "es": "EXPLORAR SISTEMA"
+  },
+  "SEARCH RESULTS": {
+    "de": "SUCHERGEBNISSE",
+    "es": "RESULTADOS DE BÚSQUEDA"
+  },
+  "EXPLORE THE MAP": {
+    "de": "KARTE ERKUNDEN",
+    "es": "EXPLORAR EL MAPA"
+  },
+  "Close details": {
+    "de": "Details schließen",
+    "es": "Cerrar detalles"
+  },
+  "Runs": {
+    "de": "Ausführung",
+    "es": "Ejecución"
+  },
+  "Automated in": {
+    "de": "Automatisiert in",
+    "es": "Automatizado en"
+  },
+  "Production activation": {
+    "de": "Produktivstatus",
+    "es": "Activación en producción"
+  },
+  "How it works": {
+    "de": "Funktionsweise",
+    "es": "Cómo funciona"
+  },
+  "Field families": {
+    "de": "Feldgruppen",
+    "es": "Familias de campos"
+  },
+  "documented mappings": {
+    "de": "dokumentierte Zuordnungen",
+    "es": "mapeos documentados"
+  },
+  "This route is documented at family level. No field-to-field links are inferred.": {
+    "de": "Diese Verbindung ist auf Feldgruppenebene dokumentiert. Es werden keine Feldzuordnungen abgeleitet.",
+    "es": "Esta ruta está documentada por familias. No se deducen enlaces entre campos."
+  },
+  "Connected journey": {
+    "de": "Verbundener Datenweg",
+    "es": "Recorrido conectado"
+  },
+  "documented routes": {
+    "de": "dokumentierte Verbindungen",
+    "es": "rutas documentadas"
+  },
+  "Related fields": {
+    "de": "Verwandte Felder",
+    "es": "Campos relacionados"
+  },
+  "No verified transfer for this field yet. It may travel through a family-level connector shown on the map.": {
+    "de": "Für dieses Feld ist noch keine Übertragung geprüft. Es kann über einen auf der Karte gezeigten Gruppen-Connector übertragen werden.",
+    "es": "Aún no hay transferencia verificada para este campo. Puede viajar por un conector de familias del mapa."
+  },
+  "No verified upstream or downstream mapping for this field yet.": {
+    "de": "Für dieses Feld ist noch keine vor- oder nachgelagerte Zuordnung geprüft.",
+    "es": "Aún no hay mapeo verificado de origen o destino para este campo."
+  },
+  "Origin not documented": {
+    "de": "Ursprung nicht dokumentiert",
+    "es": "Origen no documentado"
+  },
+  "This field starts the currently documented mapping. Field ownership rules shown above take precedence.": {
+    "de": "Dieses Feld ist der Ausgangspunkt der dokumentierten Zuordnung. Die oben gezeigte Datenverantwortung hat Vorrang.",
+    "es": "Este campo inicia el mapeo documentado. Prevalecen las reglas de responsabilidad indicadas arriba."
+  },
+  "↳ Information received": {
+    "de": "↳ Empfangene Daten",
+    "es": "↳ Información recibida"
+  },
+  "✦ Source here": {
+    "de": "✦ Quelle hier",
+    "es": "✦ Origen aquí"
+  },
+  "✦ Documented source": {
+    "de": "✦ Dokumentierte Quelle",
+    "es": "✦ Origen documentado"
+  },
+  "✦ Confirmed price source": {
+    "de": "✦ Bestätigte Preisquelle",
+    "es": "✦ Origen de precios confirmado"
+  },
+  "Price source:": {
+    "de": "Preisquelle:",
+    "es": "Origen de precios:"
+  },
+  "Find your field": {
+    "de": "Feld finden",
+    "es": "Encuentra tu campo"
+  },
+  "Connections": {
+    "de": "Verbindungen",
+    "es": "Conexiones"
+  },
+  "Observed channels": {
+    "de": "Beobachtete Kanäle",
+    "es": "Canales observados"
+  },
+  "A connected view": {
+    "de": "Ein vernetzter Überblick",
+    "es": "Una vista conectada"
+  },
+  "of Powerslide.": {
+    "de": "von Powerslide.",
+    "es": "de Powerslide."
+  },
+  "Automations, systems and the information between them. Follow the data, understand the handoffs.": {
+    "de": "Automatisierungen, Systeme und der Datenaustausch dazwischen. Verfolgen Sie Daten und Übergaben.",
+    "es": "Automatizaciones, sistemas y la información entre ellos. Sigue los datos y comprende los traspasos."
+  },
+  "Start exploring": {
+    "de": "Erkunden",
+    "es": "Empieza a explorar"
+  },
+  "Select a": {
+    "de": "Wählen Sie eine",
+    "es": "Selecciona una"
+  },
+  "capsule": {
+    "de": "Kapsel",
+    "es": "cápsula"
+  },
+  "to explore a family of fields.": {
+    "de": "um eine Feldgruppe zu erkunden.",
+    "es": "para explorar una familia de campos."
+  },
+  "cable": {
+    "de": "Verbindung",
+    "es": "conexión"
+  },
+  "to see how and when data moves.": {
+    "de": "um zu sehen, wie und wann Daten übertragen werden.",
+    "es": "para ver cómo y cuándo se mueven los datos."
+  },
+  "Find a": {
+    "de": "Suchen Sie ein",
+    "es": "Busca un"
+  },
+  "field": {
+    "de": "Feld",
+    "es": "campo"
+  },
+  "to trace its documented connections.": {
+    "de": "um seine dokumentierten Verbindungen zu verfolgen.",
+    "es": "para seguir sus conexiones documentadas."
+  },
+  "Reading the map": {
+    "de": "Karte lesen",
+    "es": "Cómo leer el mapa"
+  },
+  "Reported / approximate route": {
+    "de": "Gemeldete / ungefähre Verbindung",
+    "es": "Ruta informada / aproximada"
+  },
+  "Animation shows direction, not live activity. Field counts describe the inventory; they do not imply every field is synchronized.": {
+    "de": "Die Animation zeigt die Richtung, keine Live-Aktivität. Feldzahlen beschreiben das Verzeichnis, nicht die synchronisierten Felder.",
+    "es": "La animación muestra la dirección, no actividad en vivo. El recuento refleja el inventario, no los campos sincronizados."
+  },
+  "Metadata only. No commercial values or customer records.": {
+    "de": "Nur Metadaten. Keine Geschäftswerte oder Kundendaten.",
+    "es": "Solo metadatos. Sin valores comerciales ni registros de clientes."
+  },
+  "Documentation snapshot": {
+    "de": "Dokumentationsstand",
+    "es": "Estado de la documentación"
+  },
+  "Drag to arrange · Scroll to zoom": {
+    "de": "Ziehen zum Anordnen · Scrollen zum Zoomen",
+    "es": "Arrastra para ordenar · Desplázate para ampliar"
+  },
+  "Float off": {
+    "de": "Schweben aus",
+    "es": "Flotación desactivada"
+  },
+  "Float on": {
+    "de": "Schweben an",
+    "es": "Flotación activada"
+  },
+  "Flow": {
+    "de": "Datenfluss",
+    "es": "Flujo"
+  },
+  "Labels": {
+    "de": "Beschriftungen",
+    "es": "Etiquetas"
+  },
+  "Arrange": {
+    "de": "Anordnen",
+    "es": "Ordenar"
+  },
+  "Drag the parent to move its families": {
+    "de": "Übergeordneten Block ziehen, um seine Feldgruppen zu bewegen",
+    "es": "Arrastra el bloque principal para mover sus familias"
+  },
+  "opens a system": {
+    "de": "öffnet ein System",
+    "es": "abre un sistema"
+  },
+  "Highlighted = documented source · Unmapped fields keep an unknown origin": {
+    "de": "Hervorgehoben = dokumentierte Quelle · Ohne Zuordnung bleibt der Ursprung unbekannt",
+    "es": "Resaltado = origen documentado · Los campos sin mapeo mantienen un origen desconocido"
+  },
+  "SOURCE": {
+    "de": "QUELLE",
+    "es": "ORIGEN"
+  },
+  "SELECTED FIELD": {
+    "de": "AUSGEWÄHLTES FELD",
+    "es": "CAMPO SELECCIONADO"
+  },
+  "RECEIVES DATA": {
+    "de": "EMPFÄNGT DATEN",
+    "es": "RECIBE DATOS"
+  },
+  "ORIGIN UNKNOWN": {
+    "de": "URSPRUNG UNBEKANNT",
+    "es": "ORIGEN DESCONOCIDO"
+  },
+  "confirmed source of truth": {
+    "de": "bestätigte maßgebliche Quelle",
+    "es": "fuente de referencia confirmada"
+  },
+  "documented starting point": {
+    "de": "dokumentierter Ausgangspunkt",
+    "es": "punto de partida documentado"
+  },
+  "THE PRODUCT CREATION JOURNEY": {
+    "de": "WEG DER PRODUKTERSTELLUNG",
+    "es": "RECORRIDO DE CREACIÓN DE PRODUCTO"
+  },
+  "From an idea to the storefront.": {
+    "de": "Von der Idee zum Shop.",
+    "es": "De la idea a la tienda."
+  },
+  "The main sequence, as described by the team. Updates, prices and orders can also travel in other directions.": {
+    "de": "Der Hauptablauf laut Team. Aktualisierungen, Preise und Bestellungen können auch in andere Richtungen fließen.",
+    "es": "La secuencia principal descrita por el equipo. Las actualizaciones, los precios y los pedidos también pueden viajar en otras direcciones."
+  },
+  "Sequence is not the same as field ownership": {
+    "de": "Reihenfolge ist nicht gleich Datenverantwortung",
+    "es": "La secuencia no determina quién es responsable del campo"
+  },
+  "Develop the product": {
+    "de": "Produkt entwickeln",
+    "es": "Desarrollar el producto"
+  },
+  "Register & price": {
+    "de": "Anlegen und bepreisen",
+    "es": "Registrar y fijar precios"
+  },
+  "Enrich & prepare": {
+    "de": "Anreichern und vorbereiten",
+    "es": "Enriquecer y preparar"
+  },
+  "Publish to stores": {
+    "de": "In Shops veröffentlichen",
+    "es": "Publicar en las tiendas"
+  },
+  "Starting point for a new product.": {
+    "de": "Ausgangspunkt für ein neues Produkt.",
+    "es": "Punto de partida de un producto nuevo."
+  },
+  "Master and Weclapp are populated at approximately the same stage. Exact handoff to confirm.": {
+    "de": "Master und Weclapp werden etwa zur gleichen Phase befüllt. Die genaue Übergabe ist noch zu bestätigen.",
+    "es": "Master y Weclapp se completan aproximadamente en la misma etapa. Falta confirmar el traspaso exacto."
+  },
+  "Product information is prepared for the sales channels.": {
+    "de": "Produktinformationen werden für die Vertriebskanäle vorbereitet.",
+    "es": "La información de producto se prepara para los canales de venta."
+  },
+  "Sales Layer supplies product information to B2B, Powerslide B2C, Disroyal and Venerate through separate storefront connectors.": {
+    "de": "Sales Layer liefert Produktinformationen über separate Shop-Connectoren an B2B, Powerslide B2C, Disroyal und Venerate.",
+    "es": "Sales Layer suministra información de producto a B2B, Powerslide B2C, Disroyal y Venerate mediante conectores independientes."
+  },
+  "THE NEXT CONNECTION": {
+    "de": "DIE NÄCHSTE VERBINDUNG",
+    "es": "LA SIGUIENTE CONEXIÓN"
+  },
+  "Less typing. More flowing.": {
+    "de": "Weniger tippen. Mehr Datenfluss.",
+    "es": "Menos teclear. Más flujo."
+  },
+  "Repeated field names and manual transfers reveal places to investigate. These are proposals, not active syncs.": {
+    "de": "Wiederholte Feldnamen und manuelle Übertragungen zeigen Prüfbedarf. Dies sind Vorschläge, keine aktiven Synchronisierungen.",
+    "es": "Los nombres repetidos y las transferencias manuales indican qué revisar. Son propuestas, no sincronizaciones activas."
+  },
+  "New idea": {
+    "de": "Neue Idee",
+    "es": "Nueva idea"
+  },
+  "Export ideas": {
+    "de": "Ideen exportieren",
+    "es": "Exportar ideas"
+  },
+  "✦ Pricing rule: Master price list is the source of all prices.": {
+    "de": "✦ Preisregel: Master price list ist die Quelle aller Preise.",
+    "es": "✦ Regla de precios: Master price list es el origen de todos los precios."
+  },
+  "candidates": {
+    "de": "Kandidaten",
+    "es": "candidatos"
+  },
+  "manual transfers": {
+    "de": "manuelle Übertragungen",
+    "es": "transferencias manuales"
+  },
+  "shortlisted": {
+    "de": "vorgemerkt",
+    "es": "preseleccionadas"
+  },
+  "Metadata comparison · manual entry and values have not been audited": {
+    "de": "Metadatenvergleich · manuelle Eingaben und Werte wurden nicht geprüft",
+    "es": "Comparación de metadatos · no se han auditado la entrada manual ni los valores"
+  },
+  "Browser storage is unavailable. Export your ideas before leaving this page.": {
+    "de": "Browserspeicher nicht verfügbar. Exportieren Sie Ihre Ideen vor dem Verlassen.",
+    "es": "El almacenamiento del navegador no está disponible. Exporta tus ideas antes de salir."
+  },
+  "Sketch a new connection": {
+    "de": "Neue Verbindung entwerfen",
+    "es": "Proponer una conexión"
+  },
+  "Close new idea": {
+    "de": "Neue Idee schließen",
+    "es": "Cerrar nueva idea"
+  },
+  "Idea title": {
+    "de": "Titel der Idee",
+    "es": "Título de la idea"
+  },
+  "What could we stop entering twice?": {
+    "de": "Welche Doppeleingabe lässt sich vermeiden?",
+    "es": "¿Qué podríamos dejar de introducir dos veces?"
+  },
+  "Source": {
+    "de": "Quelle",
+    "es": "Origen"
+  },
+  "Destination": {
+    "de": "Ziel",
+    "es": "Destino"
+  },
+  "Search fields in this system": {
+    "de": "Felder in diesem System suchen",
+    "es": "Buscar campos en este sistema"
+  },
+  "Choose a field…": {
+    "de": "Feld auswählen…",
+    "es": "Elige un campo…"
+  },
+  "Idea reason": {
+    "de": "Begründung",
+    "es": "Motivo de la idea"
+  },
+  "Why is this useful? Where do we enter this manually?": {
+    "de": "Warum ist das sinnvoll? Wo wird dies manuell eingegeben?",
+    "es": "¿Por qué es útil? ¿Dónde lo introducimos manualmente?"
+  },
+  "Save proposal": {
+    "de": "Vorschlag speichern",
+    "es": "Guardar propuesta"
+  },
+  "Prices must originate in Master price list. Saved in this browser; export to share or back up.": {
+    "de": "Preise müssen aus Master price list stammen. Lokal im Browser gespeichert; zum Teilen oder Sichern exportieren.",
+    "es": "Los precios deben proceder de Master price list. Se guarda en este navegador; exporta para compartir o respaldar."
+  },
+  "Search opportunities": {
+    "de": "Möglichkeiten suchen",
+    "es": "Buscar oportunidades"
+  },
+  "Find a field or system…": {
+    "de": "Feld oder System suchen…",
+    "es": "Busca un campo o sistema…"
+  },
+  "Opportunity system": {
+    "de": "System des Vorschlags",
+    "es": "Sistema de la oportunidad"
+  },
+  "Opportunity kind": {
+    "de": "Art des Vorschlags",
+    "es": "Tipo de oportunidad"
+  },
+  "Opportunity status": {
+    "de": "Status des Vorschlags",
+    "es": "Estado de la oportunidad"
+  },
+  "All opportunities": {
+    "de": "Alle Möglichkeiten",
+    "es": "Todas las oportunidades"
+  },
+  "All statuses": {
+    "de": "Alle Status",
+    "es": "Todos los estados"
+  },
+  "To explore": {
+    "de": "Zu prüfen",
+    "es": "Por explorar"
+  },
+  "Shortlist": {
+    "de": "Vormerken",
+    "es": "Preselección"
+  },
+  "Dismissed": {
+    "de": "Verworfen",
+    "es": "Descartada"
+  },
+  "Review": {
+    "de": "Prüfen",
+    "es": "Revisar"
+  },
+  "Manual transfer": {
+    "de": "Manuelle Übertragung",
+    "es": "Transferencia manual"
+  },
+  "Repeated field": {
+    "de": "Wiederholtes Feld",
+    "es": "Campo repetido"
+  },
+  "Mapping review": {
+    "de": "Zuordnung prüfen",
+    "es": "Revisión de mapeo"
+  },
+  "Your idea": {
+    "de": "Ihre Idee",
+    "es": "Tu idea"
+  },
+  "opportunities · select one to compare": {
+    "de": "Möglichkeiten · zum Vergleich auswählen",
+    "es": "oportunidades · selecciona una para comparar"
+  },
+  "No candidates match these filters. You can still add your own idea.": {
+    "de": "Keine Kandidaten für diese Filter. Sie können eine eigene Idee ergänzen.",
+    "es": "Ningún candidato coincide con los filtros. Puedes añadir tu propia idea."
+  },
+  "Show 30 more": {
+    "de": "30 weitere anzeigen",
+    "es": "Mostrar 30 más"
+  },
+  "Opportunity details": {
+    "de": "Details zum Vorschlag",
+    "es": "Detalles de la oportunidad"
+  },
+  "PROPOSAL · NOT IMPLEMENTED": {
+    "de": "VORSCHLAG · NICHT UMGESETZT",
+    "es": "PROPUESTA · NO IMPLEMENTADA"
+  },
+  "PROPOSED SOURCE": {
+    "de": "VORGESCHLAGENE QUELLE",
+    "es": "ORIGEN PROPUESTO"
+  },
+  "PROPOSED DESTINATION": {
+    "de": "VORGESCHLAGENES ZIEL",
+    "es": "DESTINO PROPUESTO"
+  },
+  "Master price list owns all prices": {
+    "de": "Master price list ist für alle Preise verantwortlich",
+    "es": "Master price list es responsable de todos los precios"
+  },
+  "Reverse proposed direction": {
+    "de": "Vorgeschlagene Richtung umkehren",
+    "es": "Invertir dirección propuesta"
+  },
+  "Direction reversed for this proposal; confirm the source of truth.": {
+    "de": "Richtung für diesen Vorschlag umgekehrt; maßgebliche Quelle bestätigen.",
+    "es": "Dirección invertida para esta propuesta; confirma la fuente de referencia."
+  },
+  "Why it surfaced": {
+    "de": "Grund des Vorschlags",
+    "es": "Por qué aparece"
+  },
+  "Before implementing": {
+    "de": "Vor der Umsetzung",
+    "es": "Antes de implementar"
+  },
+  "Decision": {
+    "de": "Entscheidung",
+    "es": "Decisión"
+  },
+  "Proposal decision": {
+    "de": "Entscheidung zum Vorschlag",
+    "es": "Decisión de la propuesta"
+  },
+  "Notes": {
+    "de": "Notizen",
+    "es": "Notas"
+  },
+  "Proposal notes": {
+    "de": "Notizen zum Vorschlag",
+    "es": "Notas de la propuesta"
+  },
+  "Owner, frequency, direction, open questions…": {
+    "de": "Verantwortung, Häufigkeit, Richtung, offene Fragen…",
+    "es": "Responsable, frecuencia, dirección, preguntas pendientes…"
+  },
+  "Decisions and notes stay in this browser. Export ideas to keep or share them. Shortlisting does not activate a sync.": {
+    "de": "Entscheidungen und Notizen bleiben in diesem Browser. Zum Sichern oder Teilen exportieren. Vormerken aktiviert keine Synchronisierung.",
+    "es": "Las decisiones y notas quedan en este navegador. Exporta para guardarlas o compartirlas. Preseleccionar no activa una sincronización."
+  },
+  "Find the next useful sync.": {
+    "de": "Nächste sinnvolle Synchronisierung finden.",
+    "es": "Encuentra la siguiente sincronización útil."
+  },
+  "Select a candidate to compare both fields, choose a direction and keep your notes.": {
+    "de": "Kandidaten auswählen, beide Felder vergleichen, Richtung festlegen und Notizen speichern.",
+    "es": "Selecciona un candidato para comparar campos, elegir una dirección y guardar notas."
+  },
+  "Already documented automatic mappings are excluded. Repeated labels can mean different things; inspect entity levels and units.": {
+    "de": "Bereits dokumentierte automatische Zuordnungen sind ausgeschlossen. Gleiche Bezeichnungen können Verschiedenes bedeuten; Ebenen und Einheiten prüfen.",
+    "es": "Se excluyen los mapeos automáticos ya documentados. Las etiquetas repetidas pueden significar cosas distintas; revisa niveles y unidades."
+  },
+  "Automate the manual transfer": {
+    "de": "Manuelle Übertragung automatisieren",
+    "es": "Automatizar la transferencia manual"
+  },
+  "Check the connector mapping": {
+    "de": "Connector-Zuordnung prüfen",
+    "es": "Revisar el mapeo del conector"
+  },
+  "Review repeated information": {
+    "de": "Wiederholte Informationen prüfen",
+    "es": "Revisar información repetida"
+  },
+  "These exact fields already have a documented manual transfer.": {
+    "de": "Für genau diese Felder ist bereits eine manuelle Übertragung dokumentiert.",
+    "es": "Estos campos ya tienen una transferencia manual documentada."
+  },
+  "Confirmed ownership: Master price list is the source of all pricing information.": {
+    "de": "Bestätigte Verantwortung: Master price list ist die Quelle aller Preisinformationen.",
+    "es": "Responsabilidad confirmada: Master price list es el origen de toda la información de precios."
+  },
+  "Direction follows a documented manual route; confirm ownership before automating.": {
+    "de": "Die Richtung folgt einer dokumentierten manuellen Verbindung; Verantwortung vor der Automatisierung bestätigen.",
+    "es": "La dirección sigue una ruta manual documentada; confirma la responsabilidad antes de automatizar."
+  },
+  "Suggested direction follows the product creation sequence; it is not a verified source of truth.": {
+    "de": "Die vorgeschlagene Richtung folgt der Produkterstellung; sie bestätigt keine maßgebliche Quelle.",
+    "es": "La dirección propuesta sigue la secuencia de creación; no es una fuente de referencia verificada."
+  },
+  "Confirm the source of truth and whether both fields are currently entered manually.": {
+    "de": "Maßgebliche Quelle und aktuelle manuelle Eingabe beider Felder bestätigen.",
+    "es": "Confirma la fuente de referencia y si ambos campos se introducen manualmente."
+  },
+  "Check record matching, blank values, overwrite policy and update frequency.": {
+    "de": "Datensatzabgleich, Leerwerte, Überschreibregeln und Aktualisierungshäufigkeit prüfen.",
+    "es": "Revisa la coincidencia de registros, valores vacíos, sobrescritura y frecuencia de actualización."
+  },
+  "The current manual transfer works in both directions. Choose one owner per field before automating to avoid loops.": {
+    "de": "Die manuelle Übertragung funktioniert in beide Richtungen. Vor der Automatisierung einen Verantwortlichen je Feld festlegen, um Schleifen zu vermeiden.",
+    "es": "La transferencia manual funciona en ambos sentidos. Elige un responsable por campo antes de automatizar para evitar bucles."
+  },
+  "The proposed destination already receives a documented mapping. Check for competing writers and overwrites.": {
+    "de": "Das Ziel empfängt bereits eine dokumentierte Zuordnung. Konkurrierende Schreibzugriffe und Überschreibungen prüfen.",
+    "es": "El destino ya recibe un mapeo documentado. Revisa escrituras simultáneas y sobrescrituras."
+  },
+  "Several fields share this concept. Confirm the exact column, period or variant before choosing a mapping.": {
+    "de": "Mehrere Felder teilen dieses Konzept. Genaue Spalte, Zeitraum oder Variante vor der Zuordnung bestätigen.",
+    "es": "Varios campos comparten este concepto. Confirma la columna, el periodo o la variante antes de elegir un mapeo."
+  },
+  "Confirm currency, tax basis, customer group and price period.": {
+    "de": "Währung, Steuerbasis, Kundengruppe und Preiszeitraum bestätigen.",
+    "es": "Confirma moneda, base impositiva, grupo de clientes y periodo del precio."
+  },
+  "A family-level connector is already reported. This field may already be transferred; inspect its mapping first.": {
+    "de": "Ein Gruppen-Connector ist bereits gemeldet. Dieses Feld wird möglicherweise schon übertragen; zuerst die Zuordnung prüfen.",
+    "es": "Ya se ha informado de un conector de familias. Puede que este campo ya se transfiera; revisa antes su mapeo."
+  },
+  "Manual": {
+    "de": "Manuell",
+    "es": "Manual"
+  },
+  "Connector": {
+    "de": "Connector",
+    "es": "Conector"
+  },
+  "Automatic": {
+    "de": "Automatisch",
+    "es": "Automático"
+  },
+  "Scheduled": {
+    "de": "Geplant",
+    "es": "Programado"
+  },
+  "Reported": {
+    "de": "Gemeldet",
+    "es": "Informado"
+  },
+  "Approximate": {
+    "de": "Ungefähr",
+    "es": "Aproximado"
+  },
+  "Reported by owner": {
+    "de": "Vom Verantwortlichen bestätigt",
+    "es": "Informado por el responsable"
+  },
+  "Confirmed by owner": {
+    "de": "Vom Verantwortlichen bestätigt",
+    "es": "Confirmado por el responsable"
+  },
+  "Verified schema": {
+    "de": "Geprüftes Schema",
+    "es": "Esquema verificado"
+  },
+  "Theme usage": {
+    "de": "Theme-Verwendung",
+    "es": "Uso en el tema"
+  },
+  "Not independently verified": {
+    "de": "Nicht unabhängig geprüft",
+    "es": "No verificado de forma independiente"
+  },
+  "Field metadata and documented transfer rules.": {
+    "de": "Feldmetadaten und dokumentierte Übertragungsregeln.",
+    "es": "Metadatos del campo y reglas de transferencia documentadas."
+  },
+  "Type:": {
+    "de": "Typ:",
+    "es": "Tipo:"
+  },
+  "multilingual": {
+    "de": "mehrsprachig",
+    "es": "multilingüe"
+  },
+  "Development": {
+    "de": "Entwicklung",
+    "es": "Desarrollo"
+  },
+  "Product master & automations": {
+    "de": "Produktstamm und Automatisierungen",
+    "es": "Maestro de producto y automatizaciones"
+  },
+  "ERP & logistics": {
+    "de": "ERP und Logistik",
+    "es": "ERP y logística"
+  },
+  "Product information": {
+    "de": "Produktinformationen",
+    "es": "Información de producto"
+  },
+  "Wholesale": {
+    "de": "Großhandel",
+    "es": "Venta mayorista"
+  },
+  "Consumer stores": {
+    "de": "Endkundenshops",
+    "es": "Tiendas de consumidor"
+  },
+  "Consumer store": {
+    "de": "Endkundenshop",
+    "es": "Tienda de consumidor"
+  },
+  "Identity & classification": {
+    "de": "Identität und Klassifizierung",
+    "es": "Identidad y clasificación"
+  },
+  "Descriptions & SEO": {
+    "de": "Beschreibungen und SEO",
+    "es": "Descripciones y SEO"
+  },
+  "Images & video": {
+    "de": "Bilder und Video",
+    "es": "Imágenes y vídeo"
+  },
+  "Technical specifications": {
+    "de": "Technische Spezifikationen",
+    "es": "Especificaciones técnicas"
+  },
+  "Prices & commercial": {
+    "de": "Preise und Vertrieb",
+    "es": "Precios y comercial"
+  },
+  "Product weights": {
+    "de": "Produktgewichte",
+    "es": "Pesos de producto"
+  },
+  "Product packaging": {
+    "de": "Produktverpackung",
+    "es": "Embalaje de producto"
+  },
+  "VPE / outer packaging": {
+    "de": "VPE / Umverpackung",
+    "es": "VPE / embalaje exterior"
+  },
+  "Customs & origin": {
+    "de": "Zoll und Herkunft",
+    "es": "Aduanas y origen"
+  },
+  "Dates & releases": {
+    "de": "Termine und Veröffentlichungen",
+    "es": "Fechas y lanzamientos"
+  },
+  "Status & availability": {
+    "de": "Status und Verfügbarkeit",
+    "es": "Estado y disponibilidad"
+  },
+  "Selected fields": {
+    "de": "Ausgewählte Felder",
+    "es": "Campos seleccionados"
+  },
+  "Catalog & enrichment": {
+    "de": "Katalog und Anreicherung",
+    "es": "Catálogo y enriquecimiento"
+  },
+  "Prices & lifecycle": {
+    "de": "Preise und Lebenszyklus",
+    "es": "Precios y ciclo de vida"
+  },
+  "Release dates": {
+    "de": "Veröffentlichungstermine",
+    "es": "Fechas de lanzamiento"
+  },
+  "Logistics & article details": {
+    "de": "Logistik und Artikeldetails",
+    "es": "Logística y detalles de artículo"
+  },
+  "PIM presence & tags": {
+    "de": "PIM-Status und Tags",
+    "es": "Presencia en PIM y etiquetas"
+  },
+  "Orders": {
+    "de": "Bestellungen",
+    "es": "Pedidos"
+  },
+  "Development, release planning and enrichment tasks. Google Sheets · Dev to do.": {
+    "de": "Entwicklung, Veröffentlichungsplanung und Anreicherung. Google Sheets · Dev to do.",
+    "es": "Desarrollo, planificación de lanzamientos y enriquecimiento. Google Sheets · Dev to do."
+  },
+  "Product details, pricing history and commercial planning. Includes the Admin pricelist scripts and filtered price projections as one logical system. Projection aliases remain separate from sheet columns until their formulas are verified. Admin Price List provides selected-product and creation-date ID linking; its combined button links selected IDs in all four stores before sending prices. Details are recorded in log sheets with non-blocking toasts.": {
+    "de": "Produktdetails, Preishistorie und Vertriebsplanung. Enthält die Admin-Skripte und gefilterten Preisprojektionen als ein logisches System. Projektionsaliasnamen bleiben getrennt von Tabellenspalten, bis ihre Formeln geprüft sind. Admin Price List verknüpft IDs für ausgewählte Produkte oder nach Erstellungsdatum; die kombinierte Schaltfläche verknüpft ausgewählte IDs in allen vier Shops vor der Preisübertragung. Details stehen in Protokolltabellen mit nicht blockierenden Meldungen.",
+    "es": "Detalles de producto, historial de precios y planificación comercial. Incluye los scripts de Admin y las proyecciones de precios filtradas como un solo sistema lógico. Los alias de proyección se mantienen separados de las columnas hasta verificar sus fórmulas. Admin Price List vincula IDs por selección de producto o fecha de creación; el botón combinado vincula los IDs seleccionados en las cuatro tiendas antes de enviar precios. Los detalles se registran en hojas de log con avisos no bloqueantes."
+  },
+  "Article logistics, customs, packaging, prices and sales orders.": {
+    "de": "Artikellogistik, Zoll, Verpackung, Preise und Kundenaufträge.",
+    "es": "Logística de artículos, aduanas, embalaje, precios y pedidos de venta."
+  },
+  "Product and variant catalog. Complete field metadata inventory; outgoing connector mappings are documented at family level unless verified. Channels observed: Powerslide B2B, Powerslide B2C, Disroyal, Venerate, catalog exports, API distribution and price import. Historical and DEV channels are kept separate from active routes.": {
+    "de": "Produkt- und Variantenkatalog mit vollständigem Feldmetadatenverzeichnis. Ausgehende Connector-Zuordnungen sind auf Gruppenebene dokumentiert, soweit nicht geprüft. Beobachtete Kanäle: Powerslide B2B, Powerslide B2C, Disroyal, Venerate, Katalogexporte, API-Verteilung und Preisimport. Historische und DEV-Kanäle sind von aktiven Verbindungen getrennt.",
+    "es": "Catálogo de productos y variantes con inventario completo de metadatos de campos. Los mapeos salientes se documentan por familias salvo verificación. Canales observados: Powerslide B2B, Powerslide B2C, Disroyal, Venerate, exportaciones de catálogo, distribución API e importación de precios. Los canales históricos y DEV se separan de las rutas activas."
+  },
+  "Recent access observed": {
+    "de": "Kürzlicher Zugriff beobachtet",
+    "es": "Acceso reciente observado"
+  },
+  "Dedicated product-information connector confirmed active by owner on 2026-11-04; exact field bindings pending": {
+    "de": "Eigener Produktinformations-Connector am 2026-11-04 vom Verantwortlichen als aktiv bestätigt; genaue Feldzuordnungen stehen aus",
+    "es": "Conector independiente de información de producto confirmado activo por el responsable el 2026-11-04; pendientes los mapeos exactos"
+  },
+  "Present; last access predates review": {
+    "de": "Vorhanden; letzter Zugriff vor der Prüfung",
+    "es": "Presente; último acceso anterior a la revisión"
+  },
+  "Waiting for call": {
+    "de": "Wartet auf Aufruf",
+    "es": "A la espera de llamada"
+  },
+  "Historical access; not assumed active": {
+    "de": "Historischer Zugriff; nicht als aktiv eingestuft",
+    "es": "Acceso histórico; no se considera activo"
+  },
+  "Disabled": {
+    "de": "Deaktiviert",
+    "es": "Desactivado"
+  },
+  "B2B storefront, catalog prices and release calendar. Theme field usage is evidence of consumption, not proof of its writer.": {
+    "de": "B2B-Shop, Katalogpreise und Veröffentlichungskalender. Die Feldverwendung im Theme belegt den Verbrauch, nicht das schreibende System.",
+    "es": "Tienda B2B, precios de catálogo y calendario de lanzamientos. El uso de campos en el tema acredita su consumo, no quién los escribe."
+  },
+  "Powerslide B2C theme inventory. Disroyal and Venerate receive product information through their own separate Sales Layer connectors; their field bindings are not yet inventoried. Product and Variant IDs are linked to existing weclapp articles by exact full SKU through Admin Price List.": {
+    "de": "Feldverzeichnis des Powerslide-B2C-Themes. Disroyal und Venerate erhalten Produktinformationen über eigene Sales-Layer-Connectoren; deren Feldzuordnungen sind noch nicht erfasst. Produkt- und Varianten-IDs werden über die vollständige SKU mit bestehenden Weclapp-Artikeln durch Admin Price List verknüpft.",
+    "es": "Inventario del tema Powerslide B2C. Disroyal y Venerate reciben información de producto mediante conectores propios de Sales Layer; sus mapeos aún no están inventariados. Los IDs de producto y variante se vinculan con artículos existentes de Weclapp por SKU completa exacta mediante Admin Price List."
+  },
+  "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token. Product information is supplied by Sales Layer through a dedicated store connector, confirmed by owner on 2026-11-04; exact field bindings and schedule remain unverified.": {
+    "de": "Shopify-Produkt-/Varianten-IDs werden über Admin Price List verknüpft. Eigene Weclapp-Attribute und shopbezogenes Token. Sales Layer liefert Produktinformationen über einen eigenen Connector, am 2026-11-04 vom Verantwortlichen bestätigt; genaue Feldzuordnungen und Zeitplan noch ungeprüft.",
+    "es": "Vinculación de IDs de producto/variante de Shopify mediante Admin Price List. Atributos independientes de Weclapp y token específico de tienda. Sales Layer suministra información de producto mediante un conector propio, confirmado por el responsable el 2026-11-04; mapeos y horario exactos aún sin verificar."
+  },
+  "Product creation starts in Develop. Registration in Master price list and Weclapp happens at approximately the same stage, followed by Sales Layer and then Shopify. This is the business sequence, not a verified field-to-field integration. The exact handoff into Weclapp still needs confirmation. Products may return to Develop when unfinished or needing further work; this is an expected iterative workflow.": {
+    "de": "Die Produkterstellung beginnt in Develop. Die Anlage in Master price list und Weclapp erfolgt etwa zur gleichen Phase, danach folgen Sales Layer und Shopify. Dies ist der Geschäftsablauf, keine geprüfte Feldintegration. Die genaue Übergabe an Weclapp ist noch zu bestätigen. Unfertige Produkte können zur weiteren Bearbeitung nach Develop zurückkehren; dieser iterative Ablauf ist vorgesehen.",
+    "es": "La creación comienza en Develop. El registro en Master price list y Weclapp ocurre aproximadamente en la misma etapa, seguido de Sales Layer y Shopify. Es la secuencia de negocio, no una integración verificada entre campos. Falta confirmar el traspaso exacto a Weclapp. Los productos sin acabar o que requieran más trabajo pueden volver a Develop; es un proceso iterativo previsto."
+  },
+  "Master price list is the source of truth for all pricing information. Other systems consume these prices; reverse writes must be reviewed.": {
+    "de": "Master price list ist die maßgebliche Quelle aller Preisinformationen. Andere Systeme übernehmen diese Preise; Rückschreibungen sind zu prüfen.",
+    "es": "Master price list es la fuente de referencia de toda la información de precios. Los demás sistemas consumen estos precios; las escrituras de retorno deben revisarse."
+  },
+  "Daily 01:00 · Europe/Berlin; full reconciliation every 7 days": {
+    "de": "Täglich 01:00 · Europe/Berlin; vollständiger Abgleich alle 7 Tage",
+    "es": "Diario 01:00 · Europe/Berlin; conciliación completa cada 7 días"
+  },
+  "Existing records only; exact reference matching.": {
+    "de": "Nur bestehende Datensätze; exakter Referenzabgleich.",
+    "es": "Solo registros existentes; coincidencia exacta de referencias."
+  },
+  "Blank and zero source values preserve the destination.": {
+    "de": "Leere und Nullwerte der Quelle erhalten das Ziel.",
+    "es": "Los valores vacíos y cero de origen conservan el destino."
+  },
+  "Configuration defaults to simulation and paused scheduling. This map does not report live activation.": {
+    "de": "Standardkonfiguration: Simulation und pausierter Zeitplan. Diese Karte zeigt keinen Live-Aktivierungsstatus.",
+    "es": "La configuración predeterminada usa simulación y programación pausada. El mapa no muestra la activación en vivo."
+  },
+  "Standalone product only; generic packaging/VPE is preserved.": {
+    "de": "Nur eigenständige Produkte; allgemeine Verpackungs-/VPE-Daten bleiben erhalten.",
+    "es": "Solo producto independiente; se conserva el embalaje/VPE genérico."
+  },
+  "Copy to the matched variant.": {
+    "de": "In die passende Variante kopieren.",
+    "es": "Copiar a la variante coincidente."
+  },
+  "Model: mean of positive matched variant weights; standalone: copy. Round to 6 decimals.": {
+    "de": "Modell: Mittelwert positiver Gewichte passender Varianten; Einzelprodukt: kopieren. Auf 6 Dezimalstellen runden.",
+    "es": "Modelo: media de pesos positivos de las variantes coincidentes; producto independiente: copiar. Redondear a 6 decimales."
+  },
+  "Convert cm → m (divide by 100). Variant or standalone product only.": {
+    "de": "cm → m umrechnen (durch 100 teilen). Nur Variante oder Einzelprodukt.",
+    "es": "Convertir cm → m (dividir entre 100). Solo variante o producto independiente."
+  },
+  "First matched variant in ascending reference order, or standalone article. Resolve native tariff ID; country as ISO-2.": {
+    "de": "Erste passende Variante nach aufsteigender Referenz oder Einzelartikel. Native Zolltarif-ID auflösen; Land als ISO-2.",
+    "es": "Primera variante coincidente por referencia ascendente o artículo independiente. Resolver ID nativo de arancel; país en ISO-2."
+  },
+  "Customs & arrivals": {
+    "de": "Zoll und Wareneingänge",
+    "es": "Aduanas y llegadas"
+  },
+  "Model arrival = earliest date on/after today in Berlin. Preserve when none.": {
+    "de": "Modellankunft = frühestes Datum ab heute in Berlin. Ohne Treffer bestehenden Wert erhalten.",
+    "es": "Llegada del modelo = fecha más temprana desde hoy en Berlín. Conservar si no existe."
+  },
+  "Never writes Approx release.": {
+    "de": "Schreibt niemals Approx release.",
+    "es": "Nunca escribe Approx release."
+  },
+  "Earliest future arrival across matched variants; preserve existing value if none.": {
+    "de": "Früheste zukünftige Ankunft passender Varianten; ohne Treffer bestehenden Wert erhalten.",
+    "es": "Llegada futura más temprana de las variantes coincidentes; conservar el valor si no hay ninguna."
+  },
+  "First variant shared value.": {
+    "de": "Gemeinsamer Wert der ersten Variante.",
+    "es": "Valor compartido de la primera variante."
+  },
+  "On demand · selected cells": {
+    "de": "Bei Bedarf · ausgewählte Zellen",
+    "es": "Bajo demanda · celdas seleccionadas"
+  },
+  "Expected development return: product information can go back to Develop when a product is unfinished or needs further work (owner confirmation, 2026-11-04).": {
+    "de": "Vorgesehener Entwicklungsrücklauf: Produktinformationen können zu Develop zurückkehren, wenn ein Produkt unfertig ist oder weitere Arbeit benötigt (Bestätigung am 2026-11-04).",
+    "es": "Retorno previsto al desarrollo: la información puede volver a Develop cuando un producto no está acabado o necesita más trabajo (confirmación del responsable, 2026-11-04)."
+  },
+  "Exact header-name matching within named sync ranges.": {
+    "de": "Exakter Abgleich der Spaltenüberschriften innerhalb benannter Synchronisierungsbereiche.",
+    "es": "Coincidencia exacta de cabeceras dentro de los rangos de sincronización con nombre."
+  },
+  "Insert missing model rows; update selected cells.": {
+    "de": "Fehlende Modellzeilen anlegen; ausgewählte Zellen aktualisieren.",
+    "es": "Insertar filas de modelo que faltan; actualizar celdas seleccionadas."
+  },
+  "Main Segment and Main segment differ: no automatic match.": {
+    "de": "Main Segment und Main segment unterscheiden sich: keine automatische Zuordnung.",
+    "es": "Main Segment y Main segment son distintos: no hay coincidencia automática."
+  },
+  "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification.": {
+    "de": "Exakte Überschrift; nur bei Auswahl und innerhalb benannter Synchronisierungsbereiche. Bereichsgrenzen müssen live geprüft werden.",
+    "es": "Coincidencia exacta de cabecera; solo cuando se selecciona y está en los rangos de sincronización con nombre. Sus límites requieren verificación en vivo."
+  },
+  "Selected updates can return from Develop to Master after further development. The two-way development loop is intentional (owner clarification, 2026-11-04).": {
+    "de": "Ausgewählte Aktualisierungen können nach weiterer Entwicklung von Develop zu Master zurückfließen. Der beidseitige Entwicklungsablauf ist beabsichtigt (Klarstellung am 2026-11-04).",
+    "es": "Las actualizaciones seleccionadas pueden volver de Develop a Master tras continuar el desarrollo. El ciclo bidireccional es intencionado (aclaración del responsable, 2026-11-04)."
+  },
+  "The existing script can include Quote among selected fields. Master remains the pricing source of truth; the development-return explanation does not establish a separate pricing owner.": {
+    "de": "Das bestehende Skript kann Quote unter den ausgewählten Feldern übertragen. Master bleibt die maßgebliche Preisquelle; der Entwicklungsrücklauf begründet keinen weiteren Preisverantwortlichen.",
+    "es": "El script existente puede incluir Quote entre los campos seleccionados. Master sigue siendo la referencia de precios; el retorno al desarrollo no establece otro responsable de precios."
+  },
+  "Production sync action": {
+    "de": "Produktions-Synchronisierung",
+    "es": "Acción de sincronización de producción"
+  },
+  "Validate references with Catalog API, then send connector payload.": {
+    "de": "Referenzen mit Catalog API prüfen, dann Connector-Nutzdaten senden.",
+    "es": "Validar referencias con Catalog API y enviar los datos del conector."
+  },
+  "Connector aliases are documented separately from destination schema names.": {
+    "de": "Connector-Aliasnamen sind getrennt von den Schemafeldnamen dokumentiert.",
+    "es": "Los alias del conector se documentan separados de los nombres de esquema de destino."
+  },
+  "Import connector alias; final field binding requires connector configuration.": {
+    "de": "Alias im Import-Connector; endgültige Feldzuordnung erfordert dessen Konfiguration.",
+    "es": "Alias del conector de importación; el mapeo final requiere su configuración."
+  },
+  "Sales channel prices": {
+    "de": "Vertriebskanalpreise",
+    "es": "Precios de canal de venta"
+  },
+  "Visible filtered rows only. Nine channel / currency price slots.": {
+    "de": "Nur sichtbare gefilterte Zeilen. Neun Kanal-/Währungs-Preispositionen.",
+    "es": "Solo filas filtradas visibles. Nueve posiciones de precio por canal/moneda."
+  },
+  "Update the configured channel / currency price, preserving other price records.": {
+    "de": "Konfigurierten Kanal-/Währungspreis aktualisieren; andere Preise erhalten.",
+    "es": "Actualizar el precio del canal/moneda configurado conservando otros registros de precio."
+  },
+  "B2B catalog prices": {
+    "de": "B2B-Katalogpreise",
+    "es": "Precios de catálogo B2B"
+  },
+  "On demand · API ≤49 models; bulk CSV above 49": {
+    "de": "Bei Bedarf · API bis 49 Modelle; darüber CSV-Massenimport",
+    "es": "Bajo demanda · API hasta 49 modelos; CSV masivo por encima de 49"
+  },
+  "Direct API for up to 49 distinct parent references.": {
+    "de": "Direkte API für bis zu 49 unterschiedliche übergeordnete Referenzen.",
+    "es": "API directa para hasta 49 referencias de producto principal distintas."
+  },
+  "Larger sets prepare a CSV; importing it into Shopify remains a separate step.": {
+    "de": "Größere Mengen erzeugen eine CSV; der Shopify-Import ist ein separater Schritt.",
+    "es": "Los lotes mayores preparan un CSV; su importación en Shopify es un paso independiente."
+  },
+  "Customer groups and currency determine the catalog price.": {
+    "de": "Kundengruppen und Währung bestimmen den Katalogpreis.",
+    "es": "Los grupos de clientes y la moneda determinan el precio de catálogo."
+  },
+  "Group-specific fixed prices / CSV.": {
+    "de": "Gruppenspezifische Festpreise / CSV.",
+    "es": "Precios fijos por grupo / CSV."
+  },
+  "Daily trigger configured around 05:00 · Europe/Madrid": {
+    "de": "Täglicher Trigger gegen 05:00 konfiguriert · Europe/Madrid",
+    "es": "Disparador diario configurado hacia las 05:00 · Europe/Madrid"
+  },
+  "Trigger installation / activation not checked.": {
+    "de": "Trigger-Installation / Aktivierung nicht geprüft.",
+    "es": "Instalación / activación del disparador sin comprobar."
+  },
+  "Approx release → connector releasedate → Release Date.": {
+    "de": "Approx release → Connector releasedate → Release Date.",
+    "es": "Approx release → releasedate del conector → Release Date."
+  },
+  "Release calendar": {
+    "de": "Veröffentlichungskalender",
+    "es": "Calendario de lanzamientos"
+  },
+  "JSON window: 30 days back to 6 months ahead.": {
+    "de": "JSON-Zeitraum: 30 Tage zurück bis 6 Monate voraus.",
+    "es": "Ventana JSON: desde 30 días atrás hasta 6 meses adelante."
+  },
+  "Includes Sales Layer presence and shop tags.": {
+    "de": "Enthält Sales-Layer-Status und Shop-Tags.",
+    "es": "Incluye presencia en Sales Layer y etiquetas de tienda."
+  },
+  "Aggregate into shop JSON metafield.": {
+    "de": "In Shop-JSON-Metafeld zusammenfassen.",
+    "es": "Agregar al metacampo JSON de la tienda."
+  },
+  "Mark PIM done and merge storefront tags into Temp. Comment.": {
+    "de": "PIM als erledigt markieren und Shop-Tags in Temp. Comment zusammenführen.",
+    "es": "Marcar PIM como completado y combinar etiquetas de tienda en Temp. Comment."
+  },
+  "Merge supported shop tags.": {
+    "de": "Unterstützte Shop-Tags zusammenführen.",
+    "es": "Combinar etiquetas de tienda compatibles."
+  },
+  "Connector schedule pending review": {
+    "de": "Connector-Zeitplan noch zu prüfen",
+    "es": "Horario del conector pendiente de revisión"
+  },
+  "Channel present with recent access on review date; exact schedule and field delivery not verified": {
+    "de": "Kanal vorhanden mit kürzlichem Zugriff zum Prüfdatum; genauer Zeitplan und Feldübertragung ungeprüft",
+    "es": "Canal presente con acceso reciente en la revisión; horario y entrega exacta de campos sin verificar"
+  },
+  "Family-level route. Exact source-to-destination field bindings are not verified.": {
+    "de": "Verbindung auf Feldgruppenebene. Genaue Quell-/Zielfeldzuordnungen sind ungeprüft.",
+    "es": "Ruta por familias de campos. No se han verificado los mapeos exactos de origen a destino."
+  },
+  "Field counts indicate inventory coverage, not synchronized field counts.": {
+    "de": "Feldzahlen zeigen den Inventarumfang, nicht die synchronisierten Felder.",
+    "es": "Los recuentos de campos indican cobertura del inventario, no campos sincronizados."
+  },
+  "Named production channel observed. DEV channel is disabled.": {
+    "de": "Benannter Produktivkanal beobachtet. DEV-Kanal ist deaktiviert.",
+    "es": "Canal de producción identificado observado. El canal DEV está desactivado."
+  },
+  "Order import": {
+    "de": "Bestellimport",
+    "es": "Importación de pedidos"
+  },
+  "Order-driven · exact trigger pending": {
+    "de": "Bestellgesteuert · genauer Trigger steht aus",
+    "es": "Según pedidos · disparador exacto pendiente"
+  },
+  "Primary order importer not found in the inspected currency updater.": {
+    "de": "Primärer Bestellimporter im geprüften Währungs-Updater nicht gefunden.",
+    "es": "No se encontró el importador principal de pedidos en el actualizador de moneda revisado."
+  },
+  "Order currency correction": {
+    "de": "Bestellwährung korrigieren",
+    "es": "Corrección de moneda de pedido"
+  },
+  "Weclapp salesOrder CREATE / UPDATE webhook": {
+    "de": "Weclapp-salesOrder-Webhook CREATE / UPDATE",
+    "es": "Webhook CREATE / UPDATE de salesOrder de Weclapp"
+  },
+  "Reads Shopify after a Weclapp event; only orders in ORDER_ENTRY_IN_PROGRESS.": {
+    "de": "Liest Shopify nach einem Weclapp-Ereignis; nur Bestellungen mit ORDER_ENTRY_IN_PROGRESS.",
+    "es": "Lee Shopify tras un evento de Weclapp; solo pedidos en ORDER_ENTRY_IN_PROGRESS."
+  },
+  "Shop routing is environment-configured and not verified per store.": {
+    "de": "Shop-Zuordnung erfolgt über die Umgebung und ist nicht je Shop geprüft.",
+    "es": "El enrutamiento de tiendas depende de la configuración del entorno y no se ha verificado por tienda."
+  },
+  "Use Shopify presentment currency / amounts. Store routing pending verification.": {
+    "de": "Shopify-Presentment-Währung und -Beträge verwenden. Shop-Zuordnung noch zu prüfen.",
+    "es": "Usar moneda e importes de presentación de Shopify. Enrutamiento de tiendas pendiente de verificación."
+  },
+  "Powerslide B2B product + variant IDs": {
+    "de": "Powerslide B2B Produkt- und Varianten-IDs",
+    "es": "IDs de producto y variante de Powerslide B2B"
+  },
+  "Admin Price List buttons/menu: selected products or products created since C24": {
+    "de": "Admin-Price-List-Schaltflächen/Menü: ausgewählte oder seit C24 erstellte Produkte",
+    "es": "Botones/menú de Admin Price List: productos seleccionados o creados desde C24"
+  },
+  "Connections verified 2026-11-04": {
+    "de": "Verbindungen am 2026-11-04 geprüft",
+    "es": "Conexiones verificadas el 2026-11-04"
+  },
+  "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.": {
+    "de": "Auswahl = sichtbare Referenzen in Prices & Details filtred, nicht die aktuelle Zellenauswahl. Übergeordnete Referenzen schließen Varianten ein; vollständige Varianten-SKUs werden exakt abgeglichen.",
+    "es": "Seleccionados = referencias visibles en Prices & Details filtred, no la selección activa de celdas. La referencia principal incluye variantes; una SKU completa de variante se compara de forma exacta."
+  },
+  "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.": {
+    "de": "Datumsmodus nutzt die Shopify-Produkterstellung von C24 bis zum Laufstart. Auswahlmodus ignoriert C24.",
+    "es": "El modo por fecha usa la creación de productos de Shopify desde C24 hasta el inicio de la ejecución. El modo seleccionado ignora C24."
+  },
+  "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).": {
+    "de": "Schaltflächen gelten für alle vier Shops. Menübereiche: alle Shops, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
+    "es": "Los botones abarcan las cuatro tiendas. Ámbitos del menú: todas las tiendas, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate)."
+  },
+  "Missing store SKUs are logged without writes; duplicate SKUs and missing/ambiguous ERP articles are reported. No products/articles are created.": {
+    "de": "Fehlende Shop-SKUs werden ohne Schreibzugriff protokolliert; doppelte SKUs und fehlende/mehrdeutige ERP-Artikel gemeldet. Es werden keine Produkte oder Artikel angelegt.",
+    "es": "Las SKU ausentes se registran sin escrituras; se informa de SKU duplicadas y artículos ERP ausentes o ambiguos. No se crean productos ni artículos."
+  },
+  "Skip unchanged pairs; versioned partial updates preserve other attributes. Refresh/retry optimistic-lock conflicts up to three attempts.": {
+    "de": "Unveränderte Paare überspringen; versionierte Teilaktualisierungen erhalten andere Attribute. Optimistische Sperrkonflikte bis zu dreimal nach Aktualisierung wiederholen.",
+    "es": "Omitir pares sin cambios; las actualizaciones parciales versionadas conservan otros atributos. Refrescar y reintentar los conflictos de bloqueo optimista hasta tres intentos."
+  },
+  "Detailed results: Shopify ID Sync Log. Combined progress/errors: Production Sync Log. Notifications are non-blocking toasts.": {
+    "de": "Ergebnisdetails: Shopify ID Sync Log. Gesamtfortschritt/Fehler: Production Sync Log. Meldungen blockieren nicht.",
+    "es": "Detalles: Shopify ID Sync Log. Progreso y errores combinados: Production Sync Log. Los avisos no son bloqueantes."
+  },
+  "Combined button links selected IDs in all stores, then sends prices through existing weclapp, Sales Layer and B2B Shopify catalog flows. Large catalog batches still require CSV import.": {
+    "de": "Die kombinierte Schaltfläche verknüpft ausgewählte IDs in allen Shops und sendet danach Preise über bestehende Weclapp-, Sales-Layer- und B2B-Katalogabläufe. Große Katalogmengen erfordern weiterhin CSV-Import.",
+    "es": "El botón combinado vincula los IDs seleccionados en todas las tiendas y envía precios por los flujos existentes de Weclapp, Sales Layer y catálogo B2B. Los lotes grandes siguen requiriendo importación CSV."
+  },
+  "Full SKU equals exact weclapp articleNumber; preserve complete GID as text.": {
+    "de": "Vollständige SKU entspricht exakt Weclapp articleNumber; vollständige GID als Text erhalten.",
+    "es": "La SKU completa coincide exactamente con articleNumber de Weclapp; conservar el GID completo como texto."
+  },
+  "Powerslide B2C product + variant IDs": {
+    "de": "Powerslide B2C Produkt- und Varianten-IDs",
+    "es": "IDs de producto y variante de Powerslide B2C"
+  },
+  "Disroyal B2C product + variant IDs": {
+    "de": "Disroyal B2C Produkt- und Varianten-IDs",
+    "es": "IDs de producto y variante de Disroyal B2C"
+  },
+  "Venerate B2C product + variant IDs": {
+    "de": "Venerate B2C Produkt- und Varianten-IDs",
+    "es": "IDs de producto y variante de Venerate B2C"
+  },
+  "Active product-information feed confirmed by owner on 2026-11-04; schedule not independently verified": {
+    "de": "Aktiver Produktinformationsfluss am 2026-11-04 vom Verantwortlichen bestätigt; Zeitplan nicht unabhängig geprüft",
+    "es": "Flujo activo de información de producto confirmado por el responsable el 2026-11-04; horario sin verificar independientemente"
+  },
+  "Dedicated connector for this storefront; separate from the other Sales Layer store connectors.": {
+    "de": "Eigener Connector für diesen Shop, getrennt von den anderen Sales-Layer-Shop-Connectoren.",
+    "es": "Conector propio para esta tienda, separado de los otros conectores de Sales Layer."
+  },
+  "Product-information delivery confirmed by owner. Exact field bindings and schedule have not been inventoried.": {
+    "de": "Produktinformationsübertragung vom Verantwortlichen bestätigt. Genaue Feldzuordnungen und Zeitplan noch nicht erfasst.",
+    "es": "Entrega de información de producto confirmada por el responsable. Mapeos y horario exactos aún no inventariados."
+  },
+  "No field-to-field mappings are inferred from the other storefront connectors.": {
+    "de": "Aus anderen Shop-Connectoren werden keine Feldzuordnungen abgeleitet.",
+    "es": "No se deducen mapeos entre campos a partir de los otros conectores de tienda."
+  },
+  "Systems": {
+    "de": "Systeme",
+    "es": "Sistemas"
+  },
+  "Interactive map": {
+    "de": "Interaktive Karte",
+    "es": "Mapa interactivo"
+  },
+  "incoming": {
+    "de": "eingehend",
+    "es": "entrantes"
+  },
+  "outgoing": {
+    "de": "ausgehend",
+    "es": "salientes"
+  },
+  "From": {
+    "de": "Aus",
+    "es": "De"
+  },
+  "Originates upstream in": {
+    "de": "Stammt aus",
+    "es": "Procede de"
+  },
+  "a documented cycle; no single origin": {
+    "de": "einem dokumentierten Kreislauf; keine einzelne Quelle",
+    "es": "un ciclo documentado; sin un único origen"
+  },
+  "Verified headers": {
+    "de": "Geprüfte Überschriften",
+    "es": "Cabeceras verificadas"
+  },
+  "Verified in code and live API": {
+    "de": "Im Code und in der Live-API geprüft",
+    "es": "Verificado en código y API en vivo"
+  },
+  "Verified live API schema": {
+    "de": "Geprüftes Live-API-Schema",
+    "es": "Esquema de API en vivo verificado"
+  },
+  "product": {
+    "de": "Produkt",
+    "es": "producto"
+  },
+  "variant": {
+    "de": "Variante",
+    "es": "variante"
+  },
+  "model": {
+    "de": "Modell",
+    "es": "modelo"
+  },
+  "article": {
+    "de": "Artikel",
+    "es": "artículo"
+  },
+  "projection": {
+    "de": "Projektion",
+    "es": "proyección"
+  },
+  "connector input": {
+    "de": "Connector-Eingabe",
+    "es": "entrada de conector"
+  },
+  "catalog": {
+    "de": "Katalog",
+    "es": "catálogo"
+  },
+  "shop": {
+    "de": "Shop",
+    "es": "tienda"
+  },
+  "order": {
+    "de": "Bestellung",
+    "es": "pedido"
+  },
+  "Admin scripts / filtered price projection within Master price list.": {
+    "de": "Admin-Skripte / gefilterte Preisprojektion innerhalb von Master price list.",
+    "es": "Scripts de Admin / proyección de precios filtrada dentro de Master price list."
+  },
+  "Full Shopify GID retained as string. Matched using full variant SKU.": {
+    "de": "Vollständige Shopify-GID als Text erhalten. Abgleich über vollständige Varianten-SKU.",
+    "es": "GID completo de Shopify conservado como texto. Coincidencia por SKU completa de variante."
+  },
+  "Native system custom attribute. Other store IDs and unrelated attributes are preserved.": {
+    "de": "Natives benutzerdefiniertes Attribut. IDs anderer Shops und sonstige Attribute bleiben erhalten.",
+    "es": "Atributo personalizado nativo del sistema. Se conservan los IDs de otras tiendas y los atributos ajenos."
+  },
+  "On demand": {
+    "de": "Bei Bedarf",
+    "es": "Bajo demanda"
+  },
+  "Workflow & enrichment": {
+    "de": "Arbeitsablauf und Anreicherung",
+    "es": "Flujo de trabajo y enriquecimiento"
+  },
+  "Orders & currency": {
+    "de": "Bestellungen und Währung",
+    "es": "Pedidos y moneda"
+  },
+  "Navigation": {
+    "de": "Navigation",
+    "es": "Navegación"
+  },
+  "All": {
+    "de": "Alle",
+    "es": "Sin filtro"
+  }
+}

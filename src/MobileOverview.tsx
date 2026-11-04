@@ -1,0 +1,7 @@
+import {ChevronRight,ArrowDownLeft,ArrowUpRight} from 'lucide-react';
+import type {MapData,Flow} from './types';
+import {Localized} from './i18n';
+export function MobileOverview({data,flows,systemFilter,family,open}:{data:MapData;flows:Flow[];systemFilter:string;family:string;open:(id:string)=>void}){
+ const stages=data.creation.stages.map(stage=>({...stage,systems:stage.systems.filter(id=>(systemFilter==='all'||id===systemFilter)&&(family==='all'||data.fields.some(f=>f.system===id&&f.group===family)))})).filter(stage=>stage.systems.length);
+ return <Localized><div className="mobile-overview">{!stages.length&&<p className="note">No fields match these filters.</p>}{stages.map(stage=><section key={stage.title} className="mobile-stage"><h2>{stage.title}</h2>{stage.systems.map(id=>{const s=data.systems.find(s=>s.id===id)!;const incoming=flows.filter(f=>f.target===id).length,outgoing=data.flows.filter(f=>f.source===id).length;return <article key={id} className="mobile-system" style={{'--accent':s.color} as React.CSSProperties}><button className="mobile-system-open" onClick={()=>open(id)}><span className="hub-icon">{s.short}</span><span><small>{s.role}</small><strong>{s.name}</strong></span><ChevronRight size={20}/></button><div className="mobile-route-count"><span><ArrowDownLeft size={14}/>{incoming} incoming</span><span><ArrowUpRight size={14}/>{outgoing} outgoing</span></div></article>;})}</section>)}</div></Localized>;
+}

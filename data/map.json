@@ -9,7 +9,13 @@
       "color": "#c4a6ef",
       "description": "Development, release planning and enrichment tasks. Google Sheets · Dev to do.",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "links": [
+        {
+          "label": "Develop sheet",
+          "url": "https://docs.google.com/spreadsheets/d/1urfE0zi_i-NR7Vwg4qBOZhW_sHD5fZ-1pP5lxlF_F38/edit"
+        }
+      ]
     },
     {
       "id": "master",
@@ -19,7 +25,17 @@
       "color": "#e7bd78",
       "description": "Product details, pricing history and commercial planning. Includes the Admin pricelist scripts and filtered price projections as one logical system. Projection aliases remain separate from sheet columns until their formulas are verified. Admin Price List provides selected-product and creation-date ID linking; its combined button links selected IDs in all four stores before sending prices. Details are recorded in log sheets with non-blocking toasts.",
       "x": 0,
-      "y": 360
+      "y": 360,
+      "links": [
+        {
+          "label": "Master sheet",
+          "url": "https://docs.google.com/spreadsheets/d/1A-duDz4zbANc0XYxuMUNKdwpvxGPIVv9md5dZ9FxKOM/edit?gid=0#gid=0&fvid=1179870688"
+        },
+        {
+          "label": "Admin sheet",
+          "url": "https://docs.google.com/spreadsheets/d/1rsjjCfbD9cIikVUfnZz0rMOZxQ7N5ThOMbO3pS8SBS0/edit"
+        }
+      ]
     },
     {
       "id": "weclapp",
@@ -29,7 +45,13 @@
       "color": "#7fbdde",
       "description": "Article logistics, customs, packaging, prices and sales orders.",
       "x": 670,
-      "y": 360
+      "y": 360,
+      "links": [
+        {
+          "label": "Dashboard",
+          "url": "https://powerslide.weclapp.com/app/dashboard"
+        }
+      ]
     },
     {
       "id": "sl",
@@ -85,6 +107,12 @@
           "name": "Venerate",
           "status": "Dedicated product-information connector confirmed active by owner on 2026-11-04; exact field bindings pending"
         }
+      ],
+      "links": [
+        {
+          "label": "Workspace",
+          "url": "https://cloud.saleslayer.com/"
+        }
       ]
     },
     {
@@ -95,7 +123,17 @@
       "color": "#88cbb6",
       "description": "B2B storefront, catalog prices and release calendar. Theme field usage is evidence of consumption, not proof of its writer.",
       "x": 1040,
-      "y": 0
+      "y": 0,
+      "links": [
+        {
+          "label": "Storefront",
+          "url": "https://powerslide-b2b.myshopify.com/"
+        },
+        {
+          "label": "Shopify admin",
+          "url": "https://admin.shopify.com/store/powerslide-b2b"
+        }
+      ]
     },
     {
       "id": "b2c",
@@ -105,7 +143,17 @@
       "color": "#91c7bb",
       "description": "Powerslide B2C theme inventory. Disroyal and Venerate receive product information through their own separate Sales Layer connectors; their field bindings are not yet inventoried. Product and Variant IDs are linked to existing weclapp articles by exact full SKU through Admin Price List.",
       "x": 1040,
-      "y": 360
+      "y": 360,
+      "links": [
+        {
+          "label": "Storefront",
+          "url": "https://powerslide.com/"
+        },
+        {
+          "label": "Shopify admin",
+          "url": "https://admin.shopify.com/store/www-powerslide-com"
+        }
+      ]
     },
     {
       "id": "disroyal",
@@ -115,7 +163,17 @@
       "color": "#a2cbbb",
       "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token. Product information is supplied by Sales Layer through a dedicated store connector, confirmed by owner on 2026-11-04; exact field bindings and schedule remain unverified.",
       "x": 1040,
-      "y": 720
+      "y": 720,
+      "links": [
+        {
+          "label": "Storefront",
+          "url": "https://disroyal.com/"
+        },
+        {
+          "label": "Shopify admin",
+          "url": "https://admin.shopify.com/store/disroyal-distribution"
+        }
+      ]
     },
     {
       "id": "venerate",
@@ -125,7 +183,17 @@
       "color": "#b9cbb7",
       "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token. Product information is supplied by Sales Layer through a dedicated store connector, confirmed by owner on 2026-11-04; exact field bindings and schedule remain unverified.",
       "x": 1040,
-      "y": 1080
+      "y": 1080,
+      "links": [
+        {
+          "label": "Storefront",
+          "url": "https://venerate.cc/"
+        },
+        {
+          "label": "Shopify admin",
+          "url": "https://admin.shopify.com/store/venerate-cyclingshoes"
+        }
+      ]
     }
   ],
   "groups": [

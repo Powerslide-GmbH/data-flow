@@ -6,12 +6,12 @@ export function systemNodes(data,expanded,saved={}){
     const fields=data.fields.filter(f=>f.system===s.id);
     const groups=data.groups.filter(g=>fields.some(f=>f.group===g.id));
     const open=expanded.includes(s.id),columns=Math.min(3,groups.length)||1;
-    const width=open?columns*280+40:260,height=open?Math.ceil(groups.length/columns)*130+150:116;
+    const width=open?columns*280+40:260,height=open?Math.ceil(groups.length/columns)*130+170:136;
     parents.push({id:s.id,type:'bubble',position:valid(saved[s.id])?saved[s.id]:{x:0,y:0},width,height,style:{width,height},data:{kind:open?'container':'hub',system:s,count:fields.length,routes:data.flows.filter(f=>f.source===s.id||f.target===s.id).length}});
     if(open)groups.forEach((g,i)=>{
-      const id=s.id+'~'+g.id,base={x:35+(i%columns)*280,y:135+Math.floor(i/columns)*130};
+      const id=s.id+'~'+g.id,base={x:35+(i%columns)*280,y:155+Math.floor(i/columns)*130};
       const p=valid(saved[id])?saved[id]:base;
-      children.push({id,type:'bubble',parentId:s.id,extent:[[25,125],[width-25,height-25]],position:{x:Math.max(25,Math.min(width-270,p.x)),y:Math.max(125,Math.min(height-115,p.y))},width:245,height:90,zIndex:2,data:{kind:'family',system:s,group:g.id,label:g.name,count:fields.filter(f=>f.group===g.id).length}});
+      children.push({id,type:'bubble',parentId:s.id,extent:[[25,145],[width-25,height-25]],position:{x:Math.max(25,Math.min(width-270,p.x)),y:Math.max(145,Math.min(height-115,p.y))},width:245,height:90,zIndex:2,data:{kind:'family',system:s,group:g.id,label:g.name,count:fields.filter(f=>f.group===g.id).length}});
     });
   }
   arrangeSystems(parents,data);

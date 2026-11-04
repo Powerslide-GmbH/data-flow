@@ -61,3 +61,11 @@ The Admin Price List menu separates sending prices/data from linking Shopify IDs
 Product/variant GIDs map to the same exact-SKU weclapp article. Native attribute pairs: B2B 10890/10892; Powerslide B2C 22433/22435; Disroyal 4771/4773; Venerate 136860/136862. Unchanged pairs are skipped; partial writes preserve other stores and unrelated data. Details go to Shopify ID Sync Log and combined progress/errors to Production Sync Log. Only non-blocking toast summaries appear; test actions remain available in source but are not in the daily menu.
 
 Queries are batched and paginated. Selected mode avoids downloading unrelated products by creation date. ID and price writes remain separate phases; no claim is made that they are a single API update. Large B2B price sends still prepare a CSV requiring Shopify import. The map documents routes and is not live execution monitoring.
+
+## Languages, quick links and mobile
+
+English is the default. The header selector switches to German or Spanish and remembers the choice in this browser. UI and documented system/flow descriptions are translated through `src/locales.json`; identifiers, technical keys, original field labels, source references and user-entered notes retain their original text. Changing language does not change filter values or saved proposals.
+
+Each system's `links` in `data/map.json` provides its quick links in the details panel. Master includes Master and Admin sheets; each Shopify store has separate storefront and admin URLs. Sheet and platform permissions still apply.
+
+On phones, Map opens a scrollable system overview grouped by creation stage. Interactive map remains available through the view switch. The header menu collapses, filters use a compact two-column panel, and system details open as a bottom sheet. Escape closes open details, search, filters and navigation. Entry transitions respect reduced-motion preferences. Canvas bounds update when the viewport changes or the interactive map becomes visible.
