@@ -47,7 +47,7 @@ Layout changes are saved only in the current browser. Arrange recalculates the m
 
 Product creation is documented separately as Develop → Master / Weclapp (approximately the same stage) → Sales Layer → B2B / B2C. This reported business sequence does not create verified field mappings.
 
-Master price list owns all pricing information, as confirmed by the owner. Admin is its automation layer, not a separate system. Projection aliases remain distinct from sheet columns because the exact formula bindings are not verified. The existing manual Quote write from Develop back into Master is retained as implementation evidence and flagged as an ownership conflict.
+Master price list owns all pricing information, as confirmed by the owner. Admin is its automation layer, not a separate system. Projection aliases remain distinct from sheet columns because the exact formula bindings are not verified. The two-way Develop/Master workflow is intentional: unfinished products can return to Develop for further work. The existing manual Quote mapping is retained as implementation evidence; Master remains the pricing owner.
 
 Opportunities compares normalized field labels and a small explicit alias list. It excludes documented automatic pairs, highlights manual transfers and flags existing family-level connectors for mapping review. Different levels, duplicate columns and competing writers are shown as checks. Metadata similarity does not establish duplicate manual entry or equal values. Price proposals always originate in Master; the product creation sequence suggests other directions without asserting ownership.
 

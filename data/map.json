@@ -37,7 +37,7 @@
       "short": "SL",
       "role": "Product information",
       "color": "#a9cc80",
-      "description": "Product and variant catalog. Complete field metadata inventory; outgoing connector mappings are documented at family level unless verified. Channels observed: Powerslide B2B, Powerslide B2C, Disroyal, catalog exports, API distribution and price import. Historical and DEV channels are kept separate from active routes.",
+      "description": "Product and variant catalog. Complete field metadata inventory; outgoing connector mappings are documented at family level unless verified. Channels observed: Powerslide B2B, Powerslide B2C, Disroyal, Venerate, catalog exports, API distribution and price import. Historical and DEV channels are kept separate from active routes.",
       "x": 670,
       "y": 0,
       "channels": [
@@ -51,7 +51,7 @@
         },
         {
           "name": "Disroyal",
-          "status": "Recent access observed; mapping pending"
+          "status": "Dedicated product-information connector confirmed active by owner on 2026-11-04; exact field bindings pending"
         },
         {
           "name": "Powerslide Main Catalogue",
@@ -80,6 +80,10 @@
         {
           "name": "DEV B2B / B2C / Disroyal",
           "status": "Disabled"
+        },
+        {
+          "name": "Venerate",
+          "status": "Dedicated product-information connector confirmed active by owner on 2026-11-04; exact field bindings pending"
         }
       ]
     },
@@ -99,7 +103,7 @@
       "short": "B2C",
       "role": "Consumer stores",
       "color": "#91c7bb",
-      "description": "Powerslide B2C theme inventory. Other stores can be added as their connectors are reviewed. A separate Disroyal channel was also observed; its field bindings are not yet inventoried. Product and Variant IDs are linked to existing weclapp articles by exact full SKU through Admin Price List.",
+      "description": "Powerslide B2C theme inventory. Disroyal and Venerate receive product information through their own separate Sales Layer connectors; their field bindings are not yet inventoried. Product and Variant IDs are linked to existing weclapp articles by exact full SKU through Admin Price List.",
       "x": 1040,
       "y": 360
     },
@@ -109,7 +113,7 @@
       "short": "DIS",
       "role": "Consumer store",
       "color": "#a2cbbb",
-      "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token.",
+      "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token. Product information is supplied by Sales Layer through a dedicated store connector, confirmed by owner on 2026-11-04; exact field bindings and schedule remain unverified.",
       "x": 1040,
       "y": 720
     },
@@ -119,7 +123,7 @@
       "short": "VEN",
       "role": "Consumer store",
       "color": "#b9cbb7",
-      "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token.",
+      "description": "Shopify product/variant ID linking through Admin Price List. Independent weclapp attributes and store-specific token. Product information is supplied by Sales Layer through a dedicated store connector, confirmed by owner on 2026-11-04; exact field bindings and schedule remain unverified.",
       "x": 1040,
       "y": 1080
     }
@@ -13172,6 +13176,7 @@
       "platform": "Google Apps Script",
       "sourceRef": "master pricelist scripts/sendtodev.js",
       "rules": [
+        "Expected development return: product information can go back to Develop when a product is unfinished or needs further work (owner confirmation, 2026-11-04).",
         "Exact header-name matching within named sync ranges.",
         "Insert missing model rows; update selected cells.",
         "Main Segment and Main segment differ: no automatic match."
@@ -13342,10 +13347,11 @@
       "platform": "Google Apps Script",
       "sourceRef": "dev list scripts/SendtoPricelist.js",
       "rules": [
-        "This manual route can write Quote back to Master. It conflicts with the confirmed price ownership rule: Master price list owns all pricing. Review the script selection before automating.",
+        "Selected updates can return from Develop to Master after further development. The two-way development loop is intentional (owner clarification, 2026-11-04).",
         "Exact header-name matching within named sync ranges.",
         "Insert missing model rows; update selected cells.",
-        "Main Segment and Main segment differ: no automatic match."
+        "Main Segment and Main segment differ: no automatic match.",
+        "The existing script can include Quote among selected fields. Master remains the pricing source of truth; the development-return explanation does not establish a separate pricing owner."
       ],
       "evidence": "Verified in code",
       "activation": "Not independently verified",
@@ -13494,8 +13500,7 @@
           ],
           "rule": "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification."
         }
-      ],
-      "ownershipConflict": "This manual route can write Quote back to Master. It conflicts with the confirmed price ownership rule: Master price list owns all pricing. Review the script selection before automating."
+      ]
     },
     {
       "id": "master-prices-sl",
@@ -14282,11 +14287,59 @@
           "rule": "Full SKU equals exact weclapp articleNumber; preserve complete GID as text."
         }
       ]
+    },
+    {
+      "id": "sl-disroyal",
+      "source": "sl",
+      "target": "disroyal",
+      "name": "Product information",
+      "groups": [
+        "identity",
+        "content",
+        "media",
+        "specs"
+      ],
+      "mode": "Connector",
+      "schedule": "Connector schedule pending review",
+      "platform": "Sales Layer → Shopify · dedicated Disroyal B2C connector",
+      "sourceRef": "Owner confirmation on 2026-11-04: Sales Layer feeds product information to Disroyal and Venerate through separate connectors.",
+      "rules": [
+        "Dedicated connector for this storefront; separate from the other Sales Layer store connectors.",
+        "Product-information delivery confirmed by owner. Exact field bindings and schedule have not been inventoried.",
+        "No field-to-field mappings are inferred from the other storefront connectors."
+      ],
+      "evidence": "Reported",
+      "activation": "Active product-information feed confirmed by owner on 2026-11-04; schedule not independently verified",
+      "mappings": []
+    },
+    {
+      "id": "sl-venerate",
+      "source": "sl",
+      "target": "venerate",
+      "name": "Product information",
+      "groups": [
+        "identity",
+        "content",
+        "media",
+        "specs"
+      ],
+      "mode": "Connector",
+      "schedule": "Connector schedule pending review",
+      "platform": "Sales Layer → Shopify · dedicated Venerate B2C connector",
+      "sourceRef": "Owner confirmation on 2026-11-04: Sales Layer feeds product information to Disroyal and Venerate through separate connectors.",
+      "rules": [
+        "Dedicated connector for this storefront; separate from the other Sales Layer store connectors.",
+        "Product-information delivery confirmed by owner. Exact field bindings and schedule have not been inventoried.",
+        "No field-to-field mappings are inferred from the other storefront connectors."
+      ],
+      "evidence": "Reported",
+      "activation": "Active product-information feed confirmed by owner on 2026-11-04; schedule not independently verified",
+      "mappings": []
     }
   ],
   "creation": {
     "evidence": "Reported by owner",
-    "note": "Product creation starts in Develop. Registration in Master price list and Weclapp happens at approximately the same stage, followed by Sales Layer and then Shopify. This is the business sequence, not a verified field-to-field integration. The exact handoff into Weclapp still needs confirmation.",
+    "note": "Product creation starts in Develop. Registration in Master price list and Weclapp happens at approximately the same stage, followed by Sales Layer and then Shopify. This is the business sequence, not a verified field-to-field integration. The exact handoff into Weclapp still needs confirmation. Products may return to Develop when unfinished or needing further work; this is an expected iterative workflow.",
     "stages": [
       {
         "title": "Develop the product",
@@ -14314,9 +14367,11 @@
         "title": "Publish to stores",
         "systems": [
           "b2b",
-          "b2c"
+          "b2c",
+          "disroyal",
+          "venerate"
         ],
-        "description": "Sales Layer supplies the B2B and B2C storefronts."
+        "description": "Sales Layer supplies product information to B2B, Powerslide B2C, Disroyal and Venerate through separate storefront connectors."
       }
     ]
   },

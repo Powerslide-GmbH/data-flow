@@ -27,7 +27,7 @@ test('consolidation preserves every mapping endpoint and includes the four store
  assert.deepEqual(data.systems.map(s=>s.id).sort(),["dev","master","weclapp","sl","b2b","b2c","disroyal","venerate"].sort());assert.ok(!data.systems.some(s=>s.id==='admin'));
  const fields=new Map(data.fields.map(f=>[f.id,f]));
  for(const flow of data.flows){assert.notEqual(flow.source,flow.target);for(const m of flow.mappings){for(const id of m.from)assert.equal(fields.get(id).system,flow.source);for(const id of m.to)assert.equal(fields.get(id).system,flow.target);}}
- assert.deepEqual(data.creation.stages.map(s=>s.systems),[['dev'],['master','weclapp'],['sl'],['b2b','b2c']]);
+ assert.deepEqual(data.creation.stages.map(s=>s.systems),[['dev'],['master','weclapp'],['sl'],['b2b','b2c','disroyal','venerate']]);
 });
 test('candidate discovery leaves documented transfers untouched',()=>{
  const before=JSON.stringify(data);const candidates=findOpportunities(data);const ids=new Set(data.fields.map(f=>f.id));
@@ -57,7 +57,7 @@ test('all price proposals originate in Master, including bidirectional manual tr
  const fields=[{...f('m','master','Quote'),group:'prices'},{...f('d','dev','Quote'),group:'prices'},{...f('s','sl','Quote'),group:'prices'}];
  const candidates=findOpportunities({fields,flows:[flow('dev','master','d','m','Manual'),flow('master','dev','m','d','Manual')]});
  assert.ok(candidates.length>0);for(const candidate of candidates)assert.equal(candidate.from,'m');
- assert.equal(data.ownership.prices.system,'master');assert.ok(data.flows.find(f=>f.id==='dev-master').ownershipConflict);
+ assert.equal(data.ownership.prices.system,'master');assert.ok(!data.flows.find(f=>f.id==='dev-master').ownershipConflict);
 });
 
 import {arrangeSystems} from '../src/arrange.mjs';
