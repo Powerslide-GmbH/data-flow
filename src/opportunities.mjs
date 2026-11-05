@@ -27,7 +27,7 @@ export function findOpportunities(data) {
     if(manual&&!known.some(f=>f.source===a.system))[a,b]=[b,a];
     if(price&&a.system!=='master')[a,b]=[b,a];
     const exact=normalize(a.label)===normalize(b.label);
-    const familyRoute=data.flows.some(f=>((f.source===a.system&&f.target===b.system)||(f.source===b.system&&f.target===a.system))&&f.mappings.length===0&&f.groups.includes(a.group));
+    const familyRoute=data.flows.some(f=>((f.source===a.system&&f.target===b.system)||(f.source===b.system&&f.target===a.system))&&(f.mappings.length===0||f.evidence==='Verified configuration')&&f.groups.includes(a.group));
     const levelMatch=a.level===b.level||['model','product'].includes(a.level)&&['model','product'].includes(b.level);
     const duplicate=fields.some(f=>f.id!==a.id&&f.system===a.system)||fields.some(f=>f.id!==b.id&&f.system===b.system);
     const cautions=['Confirm the source of truth and whether both fields are currently entered manually.','Check record matching, blank values, overwrite policy and update frequency.'];

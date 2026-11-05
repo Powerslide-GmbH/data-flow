@@ -1378,5 +1378,189 @@
   "All": {
     "de": "Alle",
     "es": "Sin filtro"
+  },
+  "Confirmed by owner on 2026-11-05; exact schedule and field mappings not independently verified.": {
+    "de": "Am 2026-11-05 vom Verantwortlichen bestätigt; genauer Zeitplan und Feldzuordnungen nicht unabhängig geprüft.",
+    "es": "Confirmado por el responsable el 2026-11-05; horario y mapeos exactos sin verificar independientemente."
+  },
+  "Orders are imported from this storefront into Weclapp.": {
+    "de": "Bestellungen werden aus diesem Shop in Weclapp importiert.",
+    "es": "Los pedidos se importan desde esta tienda hacia Weclapp."
+  },
+  "Currency correction is a step of the order workflow, not a separate integration route. The inspected webhook adjusts currency and amounts after Weclapp salesOrder CREATE/UPDATE while the order is in ORDER_ENTRY_IN_PROGRESS; routing to each store remains unverified.": {
+    "de": "Die Währungskorrektur gehört zum Bestellablauf und ist keine eigene Verbindung. Der geprüfte Webhook korrigiert Währung und Beträge nach Weclapp salesOrder CREATE/UPDATE im Status ORDER_ENTRY_IN_PROGRESS; die Zuordnung je Shop ist noch ungeprüft.",
+    "es": "La corrección de moneda es un paso del flujo de pedidos, no una integración independiente. El webhook revisado ajusta moneda e importes tras CREATE/UPDATE de salesOrder en Weclapp mientras el pedido está en ORDER_ENTRY_IN_PROGRESS; falta verificar el enrutamiento por tienda."
+  },
+  "Stock synchronization": {
+    "de": "Bestandssynchronisierung",
+    "es": "Sincronización de stock"
+  },
+  "Connector schedule not reviewed": {
+    "de": "Connector-Zeitplan nicht geprüft",
+    "es": "Horario del conector sin revisar"
+  },
+  "Stock is synchronized only from Weclapp to the storefront; no reverse stock route is documented.": {
+    "de": "Bestand wird ausschließlich von Weclapp zum Shop synchronisiert; keine Rückrichtung ist dokumentiert.",
+    "es": "El stock se sincroniza solo de Weclapp hacia la tienda; no se documenta la dirección inversa."
+  },
+  "Product import": {
+    "de": "Produktimport",
+    "es": "Importación de productos"
+  },
+  "Products are imported from this B2C storefront into Weclapp. This route is distinct from linking IDs to existing articles.": {
+    "de": "Produkte werden aus diesem B2C-Shop in Weclapp importiert. Dies ist von der ID-Verknüpfung bestehender Artikel getrennt.",
+    "es": "Los productos se importan desde esta tienda B2C hacia Weclapp. Esta ruta es distinta de vincular IDs a artículos existentes."
+  },
+  "Verified configuration": {
+    "de": "Geprüfte Konfiguration",
+    "es": "Configuración verificada"
+  },
+  "Active channel observed on 2026-11-05. Configuration is documented; delivery of each individual field was not tested.": {
+    "de": "Aktiver Kanal am 2026-11-05 beobachtet. Konfiguration dokumentiert; die Übertragung jedes einzelnen Feldes wurde nicht getestet.",
+    "es": "Canal activo observado el 2026-11-05. Configuración documentada; no se ha probado la entrega individual de cada campo."
+  },
+  "Only Categories, Products and Variants are included. Awards, Team, Technology and Product Overview tables are not sent.": {
+    "de": "Nur Kategorien, Produkte und Varianten sind enthalten. Die Tabellen Awards, Team, Technology und Product Overview werden nicht übertragen.",
+    "es": "Solo se incluyen Categorías, Productos y Variantes. Las tablas Awards, Team, Technology y Product Overview no se envían."
+  },
+  "Rows with a source field or configured formula are distinguished from empty output fields. Formula dependencies were not fully reviewed.": {
+    "de": "Zeilen mit Quellfeld oder Formel sind von leeren Ausgabefeldern getrennt. Formelabhängigkeiten wurden nicht vollständig geprüft.",
+    "es": "Se distinguen las filas con campo de origen o fórmula de los campos de salida vacíos. No se han revisado todas las dependencias de las fórmulas."
+  },
+  "Stock overwrite on Sales Layer updates is disabled. Weclapp owns the stock synchronization direction.": {
+    "de": "Bestandsüberschreibung durch Sales-Layer-Aktualisierungen ist deaktiviert. Die Bestandssynchronisierung geht von Weclapp aus.",
+    "es": "La sobrescritura de stock en las actualizaciones de Sales Layer está desactivada. El stock se sincroniza desde Weclapp."
+  },
+  "Direct field binding observed in the Sales Layer connector configuration.": {
+    "de": "Direkte Feldzuordnung in der Sales-Layer-Connector-Konfiguration beobachtet.",
+    "es": "Mapeo directo observado en la configuración del conector de Sales Layer."
+  },
+  "Venerate B2C imports products and orders into Weclapp and receives stock from Weclapp. Venerate is not connected to Sales Layer, as clarified by the owner on 2026-11-05. ID linking remains a separate documented action.": {
+    "de": "Venerate B2C importiert Produkte und Bestellungen in Weclapp und erhält Bestand aus Weclapp. Laut Klarstellung vom 2026-11-05 ist Venerate nicht mit Sales Layer verbunden. Die ID-Verknüpfung bleibt eine getrennte Aktion.",
+    "es": "Venerate B2C importa productos y pedidos hacia Weclapp y recibe stock desde Weclapp. Venerate no está conectada a Sales Layer, según la aclaración del responsable del 2026-11-05. La vinculación de IDs sigue siendo una acción independiente."
+  },
+  "Product and variant catalog. Shopify connector output fields were reviewed on 2026-11-05 for Powerslide B2B, Powerslide B2C and Disroyal. Venerate has no Sales Layer connection. Configuration evidence is distinct from testing delivery of every field.": {
+    "de": "Produkt- und Variantenkatalog. Shopify-Ausgabefelder für Powerslide B2B, Powerslide B2C und Disroyal am 2026-11-05 geprüft. Venerate hat keine Sales-Layer-Verbindung. Konfigurationsnachweis ist kein Übertragungstest jedes Feldes.",
+    "es": "Catálogo de productos y variantes. Se revisaron los campos de salida de Powerslide B2B, Powerslide B2C y Disroyal el 2026-11-05. Venerate no tiene conexión a Sales Layer. Verificar la configuración no equivale a probar la entrega de cada campo."
+  },
+  "Sales Layer supplies Powerslide B2B, Powerslide B2C and Disroyal. Venerate is a separate storefront without a Sales Layer connection.": {
+    "de": "Sales Layer versorgt Powerslide B2B, Powerslide B2C und Disroyal. Venerate ist ein separater Shop ohne Sales-Layer-Verbindung.",
+    "es": "Sales Layer alimenta Powerslide B2B, Powerslide B2C y Disroyal. Venerate es una tienda independiente sin conexión a Sales Layer."
+  },
+  "Powerslide B2C receives product information from its Sales Layer connector, imports products and orders into Weclapp, and receives stock from Weclapp. Product/variant ID linking is a separate Admin Price List action.": {
+    "de": "Powerslide B2C erhält Produktinformationen aus seinem Sales-Layer-Connector, importiert Produkte und Bestellungen in Weclapp und erhält Bestand aus Weclapp. Die Produkt-/Varianten-ID-Verknüpfung ist eine getrennte Admin-Price-List-Aktion.",
+    "es": "Powerslide B2C recibe información de producto de su conector de Sales Layer, importa productos y pedidos hacia Weclapp y recibe stock desde Weclapp. La vinculación de IDs de producto y variante es una acción independiente de Admin Price List."
+  },
+  "Disroyal receives product information from its dedicated Sales Layer connector, imports products and orders into Weclapp, and receives stock from Weclapp. Connector fields and selection filters were reviewed on 2026-11-05.": {
+    "de": "Disroyal erhält Produktinformationen aus seinem eigenen Sales-Layer-Connector, importiert Produkte und Bestellungen in Weclapp und erhält Bestand aus Weclapp. Connector-Felder und Auswahlfilter wurden am 2026-11-05 geprüft.",
+    "es": "Disroyal recibe información de producto de su conector propio de Sales Layer, importa productos y pedidos hacia Weclapp y recibe stock desde Weclapp. Los campos y filtros del conector se revisaron el 2026-11-05."
+  },
+  "Sales Layer output configuration": {
+    "de": "Sales-Layer-Ausgabekonfiguration",
+    "es": "Configuración de salida de Sales Layer"
+  },
+  "Configuration reviewed": {
+    "de": "Konfiguration geprüft",
+    "es": "Configuración revisada"
+  },
+  ". Field delivery was not individually tested.": {
+    "de": ". Feldübertragung wurde nicht einzeln getestet.",
+    "es": ". No se ha probado la entrega individual de cada campo."
+  },
+  "Product visibility": {
+    "de": "Produktsichtbarkeit",
+    "es": "Visibilidad de productos"
+  },
+  "Selected product tags": {
+    "de": "Ausgewählte Produkt-Tags",
+    "es": "Tags de producto seleccionados"
+  },
+  "Languages": {
+    "de": "Sprachen",
+    "es": "Idiomas"
+  },
+  "Stock overwrite": {
+    "de": "Bestandsüberschreibung",
+    "es": "Sobrescritura de stock"
+  },
+  "Only visible": {
+    "de": "Nur sichtbar",
+    "es": "Solo visibles"
+  },
+  "Solo visibles": {
+    "de": "Nur sichtbar",
+    "es": "Solo visibles"
+  },
+  "Visibles y borradores": {
+    "de": "Sichtbar und Entwurf",
+    "es": "Visibles y borradores"
+  },
+  "Categories": {
+    "de": "Kategorien",
+    "es": "Categorías"
+  },
+  "Products": {
+    "de": "Produkte",
+    "es": "Productos"
+  },
+  "Variants": {
+    "de": "Varianten",
+    "es": "Variantes"
+  },
+  "Search connector fields": {
+    "de": "Connector-Felder suchen",
+    "es": "Buscar campos del conector"
+  },
+  "Search source or destination field…": {
+    "de": "Quell- oder Zielfeld suchen…",
+    "es": "Buscar campo de origen o destino…"
+  },
+  "Show fields without a source or formula": {
+    "de": "Felder ohne Quelle oder Formel anzeigen",
+    "es": "Mostrar campos sin origen ni fórmula"
+  },
+  "configured": {
+    "de": "konfiguriert",
+    "es": "configurados"
+  },
+  "output fields": {
+    "de": "Ausgabefelder",
+    "es": "campos de salida"
+  },
+  "Formula dependencies were not fully reviewed.": {
+    "de": "Formelabhängigkeiten wurden nicht vollständig geprüft.",
+    "es": "No se han revisado todas las dependencias de las fórmulas."
+  },
+  "Formula": {
+    "de": "Formel",
+    "es": "Fórmula"
+  },
+  "Direct mapping": {
+    "de": "Direkte Zuordnung",
+    "es": "Mapeo directo"
+  },
+  "No source/formula": {
+    "de": "Keine Quelle/Formel",
+    "es": "Sin origen/fórmula"
+  },
+  "Awards, Team, Technology and Product Overview tables are not sent. Product fields with similar names are listed separately.": {
+    "de": "Die Tabellen Awards, Team, Technology und Product Overview werden nicht gesendet. Produktfelder mit ähnlichen Namen sind separat aufgelistet.",
+    "es": "Las tablas Awards, Team, Technology y Product Overview no se envían. Los campos de producto con nombres similares se listan por separado."
+  },
+  "configured /": {
+    "de": "konfiguriert /",
+    "es": "configurados /"
+  },
+  "Sales Layer output": {
+    "de": "Sales-Layer-Ausgabe",
+    "es": "Salida de Sales Layer"
+  },
+  "Formula configured; dependencies not reviewed": {
+    "de": "Formel konfiguriert; Abhängigkeiten nicht geprüft",
+    "es": "Fórmula configurada; dependencias sin revisar"
+  },
+  "Visible and draft": {
+    "de": "Sichtbar und Entwurf",
+    "es": "Visibles y borradores"
   }
 }

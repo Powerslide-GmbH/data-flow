@@ -69,3 +69,16 @@ English is the default. The header selector switches to German or Spanish and re
 Each system's `links` in `data/map.json` provides its quick links in the details panel. Master includes Master and Admin sheets; each Shopify store has separate storefront and admin URLs. Sheet and platform permissions still apply.
 
 On phones, Map opens a scrollable system overview grouped by creation stage. Interactive map remains available through the view switch. The header menu collapses, filters use a compact two-column panel, and system details open as a bottom sheet. Escape closes open details, search, filters and navigation. Entry transitions respect reduced-motion preferences. Canvas bounds update when the viewport changes or the interactive map becomes visible.
+
+## Store operations and connector review · 5 November 2026
+
+Owner clarification: B2C product imports and all storefront order imports go to Weclapp. Stock goes only from Weclapp to the four storefronts. Product import is distinct from ID linking. Currency correction is documented inside each order route; the B2B/B2C code-backed currency mappings were retained, and per-store webhook routing remains unverified.
+
+Venerate is not connected to Sales Layer. The prior reported route was removed following the owner's correction and absence of a Venerate channel in the account list.
+
+`data/saleslayer-channels.json` records the read-only channel-UI inventory for Powerslide B2B, Powerslide B2C and Disroyal. It contains field names, selected sources, formula flags and safe filter metadata, without credentials or session URLs. Categories, Products and Variants were reviewed. Awards, Team, Technology and Product Overview entities are not treated as sent; similarly named product fields remain separate.
+
+Powerslide B2C selects ShopPSL and only visible items; Disroyal selects ShopDIS and only visible items. B2B selects visible items and drafts and lists ShopB2B, exChina, exChina-only, preorderB2B, preorderB2B-only and shopB2B_test. The multi-tag boolean operator was not independently established. All three disable stock overwrite on updates. The displayed 1000 is items per page, not the transfer count. Output rows with no source and no formula are distinguished from bound rows, without asserting how the connector treats empty output values.
+
+Only direct source selections whose source exists in the schema inventory become graph mappings. Formula outputs remain in the connector inventory without fabricated dependency traces. The configuration is observed evidence, not an individual field-delivery test. Original theme-consumption records remain distinct from connector output fields.
+Capsule expansion and collapse interpolate node positions and dimensions while child capsules fade in or out. React Flow receives the intermediate geometry so edges remain attached. Reduced-motion users receive the final layout directly.
