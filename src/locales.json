@@ -1562,5 +1562,17 @@
   "Visible and draft": {
     "de": "Sichtbar und Entwurf",
     "es": "Visibles y borradores"
+  },
+  "Script": {
+    "de": "Skript",
+    "es": "Script"
+  },
+  "Existing Admin Price List script performs the ID linking automatically after the user starts it; this is not manual field entry.": {
+    "de": "Das bestehende Admin-Price-List-Skript verknüpft IDs nach dem Start durch den Benutzer automatisch; dies ist keine manuelle Feldeingabe.",
+    "es": "El script existente de Admin Price List realiza la vinculación de IDs automáticamente cuando el usuario lo inicia; no es una entrada manual de campos."
+  },
+  "Article Number is assigned manually as the mandatory shared identifier for subsequent transfers between Develop and Master. It is an intentional prerequisite, not an automation opportunity.": {
+    "de": "Article Number wird manuell als obligatorischer gemeinsamer Schlüssel für spätere Übertragungen zwischen Develop und Master vergeben. Dies ist eine bewusste Voraussetzung, keine Automatisierungsmöglichkeit.",
+    "es": "Article Number se asigna manualmente como identificador común obligatorio para los traspasos posteriores entre Develop y Master. Es un requisito intencionado, no una oportunidad de automatización."
   }
 }

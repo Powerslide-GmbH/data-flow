@@ -10,7 +10,7 @@ const pairKey = (a,b) => [a,b].sort().join('|');
 export function findOpportunities(data) {
   const ranked = ['dev','master','weclapp','sl','b2b','b2c'];
   const candidates = [];
-  const eligible = data.fields.filter(f => !['order','projection','connector'].includes(f.level));
+  const eligible = data.fields.filter(f => f.opportunityPolicy!=='required-identifier'&&!['order','projection','connector'].includes(f.level));
   const buckets = new Map();
   for (const f of eligible) { const k=concept(f); if(k.length<3)continue; const bucket=buckets.get(k)||[];bucket.push(f);buckets.set(k,bucket); }
   const direct=new Map();

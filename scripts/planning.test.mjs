@@ -81,3 +81,12 @@ test('layout follows changed stage definitions rather than hardcoded system coor
  arrangeSystems(nodes,data);
  assert.ok(nodes[2].position.x<nodes[0].position.x&&nodes[0].position.x<nodes[1].position.x);
 });
+
+test('existing scripted IDs and mandatory matching keys are not suggested as missing automations',()=>{
+ const candidates=findOpportunities(data),byId=new Map(data.fields.map(f=>[f.id,f]));
+ for(const flow of data.flows.filter(f=>f.id.endsWith('-weclapp-id-link'))){assert.equal(flow.mode,'Script');for(const m of flow.mappings)for(const a of m.from)for(const b of m.to)assert.ok(!candidates.some(c=>[c.from,c.to].includes(a)&&[c.from,c.to].includes(b)));}
+ for(const candidate of candidates)for(const id of [candidate.from,candidate.to])assert.notEqual(byId.get(id).opportunityPolicy,'required-identifier');
+ assert.ok(!data.fields.some(f=>['master','dev'].includes(f.system)&&f.label==='Row ID'));
+ assert.ok(data.fields.some(f=>f.key==='frmt_erprowid'));
+ const required=data.fields.filter(f=>f.opportunityPolicy==='required-identifier');assert.equal(required.length,2);assert.ok(required.every(f=>f.label==='Article Number'));
+});

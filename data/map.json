@@ -8202,17 +8202,8 @@
       "level": "model",
       "group": "identity",
       "evidence": "Verified headers",
-      "context": "Prices & Details · G3"
-    },
-    {
-      "id": "master:model:H3",
-      "system": "master",
-      "key": "H3",
-      "label": "Row ID",
-      "level": "model",
-      "group": "identity",
-      "evidence": "Verified headers",
-      "context": "Prices & Details · H3"
+      "context": "Prices & Details · G3 · Article Number is assigned manually as the mandatory shared identifier for subsequent transfers between Develop and Master. It is an intentional prerequisite, not an automation opportunity.",
+      "opportunityPolicy": "required-identifier"
     },
     {
       "id": "master:model:I3",
@@ -8882,17 +8873,8 @@
       "level": "model",
       "group": "identity",
       "evidence": "Verified headers",
-      "context": "Dev to do · D1"
-    },
-    {
-      "id": "dev:model:E1",
-      "system": "dev",
-      "key": "E1",
-      "label": "Row ID",
-      "level": "model",
-      "group": "identity",
-      "evidence": "Verified headers",
-      "context": "Dev to do · E1"
+      "context": "Dev to do · D1 · Article Number is assigned manually as the mandatory shared identifier for subsequent transfers between Develop and Master. It is an intentional prerequisite, not an automation opportunity.",
+      "opportunityPolicy": "required-identifier"
     },
     {
       "id": "dev:model:F1",
@@ -21163,7 +21145,8 @@
         "Expected development return: product information can go back to Develop when a product is unfinished or needs further work (owner confirmation, 2026-11-04).",
         "Exact header-name matching within named sync ranges.",
         "Insert missing model rows; update selected cells.",
-        "Main Segment and Main segment differ: no automatic match."
+        "Main Segment and Main segment differ: no automatic match.",
+        "Article Number is assigned manually as the mandatory shared identifier for subsequent transfers between Develop and Master. It is an intentional prerequisite, not an automation opportunity."
       ],
       "evidence": "Verified in code",
       "activation": "Not independently verified",
@@ -21183,15 +21166,6 @@
           ],
           "to": [
             "dev:model:D1"
-          ],
-          "rule": "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification."
-        },
-        {
-          "from": [
-            "master:model:H3"
-          ],
-          "to": [
-            "dev:model:E1"
           ],
           "rule": "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification."
         },
@@ -21335,7 +21309,8 @@
         "Exact header-name matching within named sync ranges.",
         "Insert missing model rows; update selected cells.",
         "Main Segment and Main segment differ: no automatic match.",
-        "The existing script can include Quote among selected fields. Master remains the pricing source of truth; the development-return explanation does not establish a separate pricing owner."
+        "The existing script can include Quote among selected fields. Master remains the pricing source of truth; the development-return explanation does not establish a separate pricing owner.",
+        "Article Number is assigned manually as the mandatory shared identifier for subsequent transfers between Develop and Master. It is an intentional prerequisite, not an automation opportunity."
       ],
       "evidence": "Verified in code",
       "activation": "Not independently verified",
@@ -21355,15 +21330,6 @@
           ],
           "to": [
             "master:model:G3"
-          ],
-          "rule": "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification."
-        },
-        {
-          "from": [
-            "dev:model:E1"
-          ],
-          "to": [
-            "master:model:H3"
           ],
           "rule": "Exact header match; included only when selected and inside named sync ranges. Range boundaries require live verification."
         },
@@ -26363,13 +26329,14 @@
       "groups": [
         "identity"
       ],
-      "mode": "Manual",
+      "mode": "Script",
       "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
       "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
       "evidence": "Verified in code and live API",
       "activation": "Connections verified 2026-11-04",
       "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
       "rules": [
+        "Existing Admin Price List script performs the ID linking automatically after the user starts it; this is not manual field entry.",
         "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
         "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
         "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
@@ -26407,13 +26374,14 @@
       "groups": [
         "identity"
       ],
-      "mode": "Manual",
+      "mode": "Script",
       "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
       "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
       "evidence": "Verified in code and live API",
       "activation": "Connections verified 2026-11-04",
       "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
       "rules": [
+        "Existing Admin Price List script performs the ID linking automatically after the user starts it; this is not manual field entry.",
         "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
         "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
         "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
@@ -26451,13 +26419,14 @@
       "groups": [
         "identity"
       ],
-      "mode": "Manual",
+      "mode": "Script",
       "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
       "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
       "evidence": "Verified in code and live API",
       "activation": "Connections verified 2026-11-04",
       "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
       "rules": [
+        "Existing Admin Price List script performs the ID linking automatically after the user starts it; this is not manual field entry.",
         "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
         "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
         "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
@@ -26495,13 +26464,14 @@
       "groups": [
         "identity"
       ],
-      "mode": "Manual",
+      "mode": "Script",
       "schedule": "Admin Price List buttons/menu: selected products or products created since C24",
       "platform": "Admin Price List · Google Apps Script · Shopify GraphQL → weclapp API v2",
       "evidence": "Verified in code and live API",
       "activation": "Connections verified 2026-11-04",
       "sourceRef": "admin pricelist scripts/shopify id sync.js; sync all production.js",
       "rules": [
+        "Existing Admin Price List script performs the ID linking automatically after the user starts it; this is not manual field entry.",
         "Selected = visible references in Prices & Details filtred, not the active cell selection. Parent reference includes variants; a full variant SKU is matched exactly.",
         "Date mode uses Shopify product creation time from C24 through run start. Selected mode ignores C24.",
         "Buttons target all four stores. Menu scopes: All stores, B2B (Powerslide), B2C (Powerslide, Disroyal, Venerate).",
